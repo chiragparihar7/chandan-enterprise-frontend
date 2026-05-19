@@ -1,7 +1,7 @@
 export const contactInfo = [
     {
       title: "Phone Number",
-      value: "+91 98765 43210",
+      value: "+91 95581 89429",
     },
     {
       title: "Email Address",

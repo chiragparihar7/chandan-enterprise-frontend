@@ -8,21 +8,25 @@ export default function StickyMobileCTA() {
 
       <div className="grid grid-cols-2">
 
-        <button className="h-16 flex items-center justify-center gap-3 text-white border-r border-white/10">
-
+        {/* Call Button */}
+        <a
+          href="tel:+919558189429"
+          className="h-16 flex items-center justify-center gap-3 text-white border-r border-white/10"
+        >
           <Phone size={20} />
-
           Call Now
+        </a>
 
-        </button>
-
-        <button className="h-16 flex items-center justify-center gap-3 bg-white text-black font-semibold">
-
+        {/* WhatsApp Button */}
+        <a
+          href="https://wa.me/919558189429"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="h-16 flex items-center justify-center gap-3 bg-white text-black font-semibold"
+        >
           <MessageCircle size={20} />
-
           WhatsApp
-
-        </button>
+        </a>
 
       </div>
 

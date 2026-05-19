@@ -40,15 +40,36 @@ export default function HeroSection() {
               terraces, basements, roofs, bathrooms, and walls.
             </p>
 
+            {/* Contact Number */}
+            <div className="mb-10">
+              <p className="text-white text-2xl font-semibold">
+                📞 +91 95581 89429
+              </p>
+
+              <p className="text-gray-400 mt-2">
+                Call us for urgent waterproofing support
+              </p>
+            </div>
+
             <div className="flex flex-wrap gap-5">
 
-              <button className="bg-white text-black px-8 py-4 rounded-full font-semibold hover:bg-gray-200 transition">
+              {/* Free Inspection */}
+              <a
+                href="https://wa.me/919558189429"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white text-black px-8 py-4 rounded-full font-semibold hover:bg-gray-200 transition"
+              >
                 Get Free Inspection
-              </button>
+              </a>
 
-              <button className="border border-white/20 text-white px-8 py-4 rounded-full hover:border-white transition">
+              {/* Call Button */}
+              <a
+                href="tel:+919558189429"
+                className="border border-white/20 text-white px-8 py-4 rounded-full hover:border-white transition"
+              >
                 Call Now
-              </button>
+              </a>
 
             </div>
 

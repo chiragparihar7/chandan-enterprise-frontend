@@ -16,11 +16,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// ✅ SEO Optimized Metadata
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
+  ),
+
   title: "Chandan Enterprise | Waterproofing Services",
+
   description:
     "Chandan Enterprise provides professional waterproofing services for roofs, terraces, basements & buildings. Get expert solutions today.",
+
   keywords: [
     "waterproofing services",
     "roof waterproofing",

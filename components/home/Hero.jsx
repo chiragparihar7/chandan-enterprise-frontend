@@ -12,17 +12,17 @@ export default function Hero() {
     {
       title: "Roof Waterproofing",
       desc: "Protect your roof with long-lasting waterproofing solutions.",
-      img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      img: "/Banner/roof_waterproofing.jpg",
     },
     {
       title: "Terrace Waterproofing",
       desc: "Expert terrace protection with advanced waterproofing systems.",
-      img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+      img: "/Banner/tarrace_waterproofing.jpg",
     },
     {
       title: "Basement Waterproofing",
       desc: "Keep your basement dry and damage-free with professional solutions.",
-      img: "https://images.unsplash.com/photo-1581090700227-1e37b190418e",
+      img: "/Banner/basement.jpg",
     },
   ];
 

@@ -20,7 +20,7 @@ export default function WaterproofingLandingPage() {
       <ServicesSection />
       <ProblemSection />
       <SolutionSection />
-      <BeforeAfterSection />
+      {/* <BeforeAfterSection /> */}
       <WhyChooseUs />
       <ProcessTimeline />
       <EmergencyCTA />
