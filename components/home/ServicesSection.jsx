@@ -1,110 +1,130 @@
-    "use client";
+"use client";
 
-    import Image from "next/image";
+import Image from "next/image";
+import Link from "next/link";
 
-    const services = [
-    {
-        title: "Terrace Waterproofing",
-        desc: "Protect your terrace from leaks using high-quality membranes.",
-        img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
-    },
-    {
-        title: "Bathroom Waterproofing",
-        desc: "Prevent dampness and seepage in bathroom areas.",
-        img: "https://images.unsplash.com/photo-1600585154526-990dced4db0d",
-    },
-    {
-        title: "Exterior Wall Waterproofing",
-        desc: "Protect external walls from rain and moisture damage.",
-        img: "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6",
-    },
-    {
-        title: "Rising Dampness",
-        desc: "Stop moisture rising from the ground into walls.",
-        img: "https://images.unsplash.com/photo-1581090700227-1e37b190418e",
-    },
-    {
-        title: "Basement Waterproofing",
-        desc: "Protect basements and underground structures.",
-        img: "https://images.unsplash.com/photo-1599423300746-b62533397364",
-    },
-    {
-        title: "Swimming Pool Waterproofing",
-        desc: "Complete waterproofing for pools and water bodies.",
-        img: "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf",
-    },
-    {
-        title: "PU Grouting",
-        desc: "Seal cracks and joints with polyurethane injection.",
-        img: "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc",
-    },
-    {
-        title: "Expansion Joint Sealing",
-        desc: "Flexible sealing solutions for building joints.",
-        img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789",
-    },
-    ];
+const services = [
+  {
+    title: "Terrace Waterproofing",
+    desc: "Protect your terrace from leakage and water seepage with advanced waterproofing systems.",
+    img: "/Services/terrace_waterproofing.jpg",
+  },
+  {
+    title: "Bathroom Waterproofing",
+    desc: "Prevent dampness, leakage and moisture issues in bathrooms and wet areas.",
+    img: "/Services/bathroom_waterproofing.jpg",
+  },
+  {
+    title: "Exterior Wall Waterproofing",
+    desc: "Protect exterior walls from rainwater penetration and weather damage.",
+    img: "/Services/exterior_wall_waterproofing.jpg",
+  },
+  {
+    title: "Rising Dampness Treatment",
+    desc: "Stop moisture rising through walls and protect interior surfaces.",
+    img: "/Services/rising_waterproofing.jpg",
+  },
+  {
+    title: "Basement Waterproofing",
+    desc: "Keep basements dry and secure with long-lasting waterproofing solutions.",
+    img: "/Services/basement_waterproofings.jpg",
+  },
+  {
+    title: "Swimming Pool Waterproofing",
+    desc: "Complete waterproofing solutions for pools, tanks and water-retaining structures.",
+    img: "/Services/swimming_pool_waterproofing.jpg",
+  },
+  {
+    title: "PU Injection Grouting",
+    desc: "Seal cracks and joints effectively using polyurethane injection technology.",
+    img: "/Services/puinjection.jpg",
+  },
+  {
+    title: "Expansion Joint Sealing",
+    desc: "Flexible sealing systems for expansion joints in buildings and structures.",
+    img: "/Services/expansion_joint_sealing.jpg",
+  },
+  {
+    title: "Roof Waterproofing",
+    desc: "Protect roofs from leakage, seepage and weather-related deterioration.",
+    img: "/Services/roof_waterproofing.jpg",
+  },
+];
 
-    export default function ServicesSection() {
-    return (
-        <section className="w-full py-6 sm:py-8 bg-gray-50">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
+export default function ServicesSection() {
+  return (
+    <section className="w-full bg-gray-50 py-16 sm:py-20">
+      <div className="max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-8">
 
-            {/* 🔥 Heading */}
-            <div className="text-center mb-12">
-            <span className="text-sm tracking-[0.2em] uppercase text-gray-500">
-                Our Services
-            </span>
+        {/* Heading */}
+        <div className="text-center max-w-3xl mx-auto mb-14">
+          <span className="text-sm uppercase tracking-[4px] text-gray-500">
+            Our Services
+          </span>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mt-3">
-                Waterproofing Solutions We Provide
-            </h2>
-            </div>
+          <h2 className="mt-4 text-4xl md:text-5xl font-bold text-gray-900">
+            Professional Waterproofing Solutions
+          </h2>
 
-            {/* 🔥 Grid */}
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <p className="mt-5 text-lg text-gray-600">
+            We provide advanced waterproofing services for residential,
+            commercial and industrial properties with long-lasting protection.
+          </p>
+        </div>
 
-            {services.map((service, index) => (
-                <div
-                key={index}
-                className="group relative rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300"
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500"
+            >
+              {/* Image */}
+              <div className="relative h-[260px] overflow-hidden">
+                <Image
+                  src={service.img}
+                  alt={service.title}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
+                />
+
+                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition" />
+              </div>
+
+              {/* Content */}
+              <div className="p-6">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                  {service.title}
+                </h3>
+
+                <p className="text-gray-600 leading-relaxed mb-5">
+                  {service.desc}
+                </p>
+
+                <Link
+                  href="/services"
+                  className="inline-flex items-center font-semibold text-black hover:translate-x-2 transition-transform duration-300"
                 >
-                
-                {/* Image */}
-                <div className="relative h-[220px]">
-                    <Image
-                    src={service.img}
-                    alt={service.title}
-                    fill
-                    className="object-cover group-hover:scale-110 transition duration-500"
-                    />
-                </div>
-
-                {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent"></div>
-
-                {/* Content */}
-                <div className="absolute bottom-0 p-5 text-white">
-                    <h3 className="text-lg font-semibold mb-2">
-                    {service.title}
-                    </h3>
-
-                    <p className="text-sm text-gray-200 mb-3">
-                    {service.desc}
-                    </p>
-
-                    {/* CTA */}
-                    <span className="text-sm font-medium underline underline-offset-4 group-hover:tracking-wide transition">
-                    Service Details →
-                    </span>
-                </div>
-
-                </div>
-            ))}
-
+                  Learn More →
+                </Link>
+              </div>
             </div>
+          ))}
 
         </div>
-        </section>
-    );
-    }
+
+        {/* CTA */}
+        <div className="text-center mt-14">
+          <Link
+            href="/services"
+            className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-black text-white font-semibold hover:bg-gray-800 transition"
+          >
+            View All Services
+          </Link>
+        </div>
+
+      </div>
+    </section>
+  );
+}

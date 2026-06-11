@@ -13,7 +13,7 @@ export default function AboutSection() {
           {/* 🔥 LEFT IMAGE */}
           <div className="relative w-full h-[320px] sm:h-[420px] md:h-auto rounded-2xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1581578731548-c64695cc6952"
+              src="/Home/about_company.jpg"
               alt="Waterproofing work"
               fill
               className="object-cover"

@@ -11,89 +11,145 @@ export default function Hero() {
   const slides = [
     {
       title: "Roof Waterproofing",
-      desc: "Protect your roof with long-lasting waterproofing solutions.",
-      img: "/Banner/roof_waterproofing.jpg",
+      desc: "Protect your roof with long-lasting waterproofing solutions that prevent leakage, seepage, and structural damage.",
+      img: "/Home/roof_waterproofing.jpg",
     },
     {
       title: "Terrace Waterproofing",
-      desc: "Expert terrace protection with advanced waterproofing systems.",
-      img: "/Banner/tarrace_waterproofing.jpg",
+      desc: "Advanced terrace waterproofing systems designed to withstand harsh weather and ensure long-term protection.",
+      img: "/Home/terrace_waterproofing1.jpg",
     },
     {
       title: "Basement Waterproofing",
-      desc: "Keep your basement dry and damage-free with professional solutions.",
-      img: "/Banner/basement.jpg",
+      desc: "Keep your basement dry, safe, and moisture-free with professional waterproofing solutions.",
+      img: "/Home/basement_waterproofing.jpg",
     },
   ];
 
   return (
-    <section className="w-full min-h-[100svh]">
+    <section className="relative w-full overflow-hidden">
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"
-        autoplay={{ delay: 4000, disableOnInteraction: false }}
         loop={true}
-        className="h-full"
+        speed={1000}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        className="w-full h-[100svh]"
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="relative w-full min-h-[100svh]">
+            <div className="relative w-full h-[100svh]">
 
-              {/* 🔥 Background Image (Optimized) */}
+              {/* Background Image */}
               <Image
                 src={slide.img}
-                alt="waterproofing"
+                alt={slide.title}
                 fill
                 priority={index === 0}
                 sizes="100vw"
-                className="object-cover"
+                className="object-cover object-center"
               />
 
-              {/* 🔥 Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/20" />
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/45 to-black/15" />
 
-              {/* 🔥 Content */}
-              <div className="relative z-10 max-w-[1280px] mx-auto min-h-[100svh] flex items-center px-4 sm:px-6">
-                
-                <div className="max-w-xl text-white">
+              {/* Content */}
+              <div className="absolute inset-0 z-10">
+                <div className="max-w-[1280px] mx-auto h-full px-5 sm:px-8 lg:px-10">
 
-                  {/* Tag */}
-                  <span className="text-xs sm:text-sm tracking-widest uppercase text-gray-300">
-                    Waterproofing Experts
-                  </span>
+                  <div className="flex items-center h-full">
 
-                  {/* Heading */}
-                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-3 mb-4 sm:mb-6 leading-tight">
-                    {slide.title}
-                  </h1>
+                    <div className="max-w-3xl text-white">
 
-                  {/* Description */}
-                  <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-8">
-                    {slide.desc}
-                  </p>
-
-                  {/* CTA */}
-                  <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                    
-                    <a
-                      href="/contact"
-                      className="relative px-6 sm:px-7 py-3 rounded-full border border-white text-white overflow-hidden group text-sm sm:text-base text-center"
-                    >
-                      <span className="absolute inset-0 bg-white w-0 group-hover:w-full transition-all duration-300"></span>
-                      <span className="relative z-10 group-hover:text-black transition">
-                        Get Free Inspection
+                      {/* Tag */}
+                      <span className="inline-block text-xs sm:text-sm uppercase tracking-[4px] text-gray-200 mb-4">
+                        Waterproofing Experts
                       </span>
-                    </a>
 
-                    <a
-                      href="/services"
-                      className="px-6 sm:px-7 py-3 border border-white rounded-full hover:bg-white hover:text-black transition text-sm sm:text-base text-center"
-                    >
-                      View Services
-                    </a>
+                      {/* Heading */}
+                      <h1
+                        className="
+                          text-4xl
+                          sm:text-5xl
+                          md:text-6xl
+                          lg:text-7xl
+                          xl:text-8xl
+                          font-bold
+                          leading-tight
+                          mb-5
+                        "
+                      >
+                        {slide.title}
+                      </h1>
+
+                      {/* Description */}
+                      <p
+                        className="
+                          text-base
+                          sm:text-lg
+                          md:text-xl
+                          text-gray-200
+                          max-w-2xl
+                          mb-8
+                          leading-relaxed
+                        "
+                      >
+                        {slide.desc}
+                      </p>
+
+                      {/* Buttons */}
+                      <div className="flex flex-col sm:flex-row gap-4">
+
+                        <a
+                          href="/contact"
+                          className="
+                            inline-flex
+                            items-center
+                            justify-center
+                            px-8
+                            py-3.5
+                            rounded-full
+                            bg-white
+                            text-black
+                            font-semibold
+                            hover:bg-gray-200
+                            transition-all
+                            duration-300
+                          "
+                        >
+                          Get Free Inspection
+                        </a>
+
+                        <a
+                          href="/services"
+                          className="
+                            inline-flex
+                            items-center
+                            justify-center
+                            px-8
+                            py-3.5
+                            rounded-full
+                            border
+                            border-white
+                            text-white
+                            font-semibold
+                            hover:bg-white
+                            hover:text-black
+                            transition-all
+                            duration-300
+                          "
+                        >
+                          View Services
+                        </a>
+
+                      </div>
+
+                    </div>
 
                   </div>
-
                 </div>
               </div>
 
