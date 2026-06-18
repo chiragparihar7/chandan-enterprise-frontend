@@ -10,9 +10,9 @@ import {
 const projects = [
   {
     before:
-      "/repair-maintenance/projects/project-1-before.jpg",
+      "/repair-maintenance/before1.jpg",
     after:
-      "/repair-maintenance/projects/project-1-after.jpg",
+      "/repair-maintenance/after1.jpg",
 
     title: "Terrace Waterproofing & Leakage Repair",
 
@@ -30,10 +30,10 @@ const projects = [
 
   {
     before:
-      "/repair-maintenance/projects/project-2-before.jpg",
+      "/repair-maintenance/before2.jpg",
 
     after:
-      "/repair-maintenance/projects/project-2-after.jpg",
+      "/repair-maintenance/after2.jpg",
 
     title: "Interior Renovation & Wall Restoration",
 
@@ -51,10 +51,10 @@ const projects = [
 
   {
     before:
-      "/repair-maintenance/projects/project-3-before.jpg",
+      "/repair-maintenance/before3.jpg",
 
     after:
-      "/repair-maintenance/projects/project-3-after.jpg",
+      "/repair-maintenance/after3.jpg",
 
     title: "False Ceiling & Gypsum Partition Work",
 

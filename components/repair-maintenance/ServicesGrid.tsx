@@ -15,7 +15,7 @@ const services = [
   {
     icon: Droplets,
     title: "Waterproofing Solutions",
-    image: "/repair-maintenance/services/waterproofing.jpg",
+    image: "/repair-maintenance/tarrace_Service.jpg",
     services: [
       "Terrace Waterproofing",
       "Roof Waterproofing",
@@ -26,7 +26,7 @@ const services = [
   {
     icon: Wrench,
     title: "Repair & Maintenance",
-    image: "/repair-maintenance/services/repair.jpg",
+    image: "/repair-maintenance/repair_service.jpg",
     services: [
       "Water Leakage Repair",
       "Wall Crack Repair",
@@ -37,7 +37,7 @@ const services = [
   {
     icon: Building2,
     title: "Renovation & Refurbishment",
-    image: "/repair-maintenance/services/renovation.jpg",
+    image: "/repair-maintenance/refurbishment_service.jpg",
     services: [
       "Home Renovation",
       "Office Renovation",
@@ -48,7 +48,7 @@ const services = [
   {
     icon: Paintbrush,
     title: "Interior & Civil Works",
-    image: "/repair-maintenance/services/interior.jpg",
+    image: "/repair-maintenance/interior_service.jpg",
     services: [
       "False Ceiling",
       "Gypsum Partition",

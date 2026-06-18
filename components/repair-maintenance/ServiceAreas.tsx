@@ -115,7 +115,7 @@ const handleWhatsappClick = () => {
           <div className="relative h-[320px] lg:h-[500px]">
 
             <img
-              src="/repair-maintenance/ahmedabad-city.jpg"
+              src="/repair-maintenance/location.jpg"
               alt="Ahmedabad Service Coverage"
               className="h-full w-full object-cover"
             />
