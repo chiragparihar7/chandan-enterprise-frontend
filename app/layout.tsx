@@ -6,6 +6,7 @@ import "./globals.css";
 // Components
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
+import LayoutWrapper from "@/components/common/LayoutWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,14 +20,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ||
-      "https://www.chandanenterprises.com"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.chandanenterprises.com",
   ),
 
   // Default Title
   title: {
-    default:
-      "Best Waterproofing Services in Ahmedabad | Chandan Enterprise",
+    default: "Best Waterproofing Services in Ahmedabad | Chandan Enterprise",
     template: "%s | Chandan Enterprise",
   },
 
@@ -75,8 +74,7 @@ export const metadata: Metadata = {
 
   // Open Graph SEO
   openGraph: {
-    title:
-      "Best Waterproofing Services in Ahmedabad | Chandan Enterprise",
+    title: "Best Waterproofing Services in Ahmedabad | Chandan Enterprise",
 
     description:
       "Professional waterproofing & leakage repair services in Ahmedabad.",
@@ -103,8 +101,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title:
-      "Best Waterproofing Services in Ahmedabad | Chandan Enterprise",
+    title: "Best Waterproofing Services in Ahmedabad | Chandan Enterprise",
 
     description:
       "Professional waterproofing solutions for roofs, terraces & basements.",
@@ -132,7 +129,6 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full`}
     >
       <body className="min-h-screen flex flex-col bg-white text-black">
-
         {/* Google Ads / Analytics Tag */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18170685424"
@@ -166,8 +162,7 @@ export default function RootLayout({
 
               name: "Chandan Enterprise",
 
-              image:
-                "https://www.chandanenterprises.com/logo.png",
+              image: "https://www.chandanenterprises.com/logo.png",
 
               url: "https://www.chandanenterprises.com",
 
@@ -242,17 +237,7 @@ export default function RootLayout({
           }}
         />
 
-        {/* Header */}
-        <Header />
-
-        {/* Main Content */}
-        <main className="flex-1">
-          {children}
-        </main>
-
-        {/* Footer */}
-        <Footer />
-
+        <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>
   );
