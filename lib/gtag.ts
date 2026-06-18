@@ -1,7 +1,7 @@
 export const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 export const pageview = (url: string) => {
-  window.gtag("config", GA_ID, {
+  window.gtag?.("config", GA_ID!, {
     page_path: url,
   });
 };
@@ -15,7 +15,7 @@ export const event = ({
   category: string;
   label: string;
 }) => {
-  window.gtag("event", action, {
+  window.gtag?.("event", action, {
     event_category: category,
     event_label: label,
   });
