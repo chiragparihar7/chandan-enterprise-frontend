@@ -11,7 +11,7 @@ import ServiceAreas from "@/components/repair-maintenance/ServiceAreas";
 import Testimonials from "@/components/repair-maintenance/Testimonials";
 import FAQ from "@/components/repair-maintenance/FAQ";
 import ContactForm from "@/components/repair-maintenance/ContactForm";
-// import FloatingCTA from "@/components/repair-maintenance/FloatingCTA";
+import FloatingCTA from "@/components/repair-maintenance/FloatingCTA";
 
 export const metadata: Metadata = {
 metadataBase: new URL("https://www.chandanenterprises.com"),
@@ -285,7 +285,7 @@ __html: JSON.stringify(localBusinessSchema),
     <Testimonials />
     <FAQ />
     <ContactForm />
-    {/* <FloatingCTA /> */}
+    <FloatingCTA />
   </main>
 </>
 
