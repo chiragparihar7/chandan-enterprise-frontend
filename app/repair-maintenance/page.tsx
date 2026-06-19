@@ -14,13 +14,12 @@ import ContactForm from "@/components/repair-maintenance/ContactForm";
 import FloatingCTA from "@/components/repair-maintenance/FloatingCTA";
 
 export const metadata: Metadata = {
-metadataBase: new URL("https://www.chandanenterprise.com"),
+metadataBase: new URL("https://www.chandanenterprises.com"),
 
-title:
-"Building Repair, Waterproofing & Renovation Services in Ahmedabad | Chandan Enterprise",
+title: "Building Repair, Waterproofing & Renovation Services in Ahmedabad",
 
 description:
-"Professional building repair, waterproofing, renovation, false ceiling, gypsum partition and maintenance services in Ahmedabad. Free site inspection available.",
+  "Building repair, waterproofing, renovation, false ceiling and gypsum partition services in Ahmedabad. Free site inspection.",
 
 keywords: [
 "building repair Ahmedabad",
@@ -46,7 +45,7 @@ keywords: [
 
 alternates: {
 canonical:
-"https://www.chandanenterprise.com/repair-maintenance",
+"https://www.chandanenterprises.com/repair-maintenance",
 },
 
 robots: {
@@ -63,7 +62,7 @@ description:
   "Trusted repair, waterproofing, renovation and maintenance solutions across Ahmedabad.",
 
 url:
-  "https://www.chandanenterprise.com/repair-maintenance",
+  "https://www.chandanenterprises.com/repair-maintenance",
 
 siteName: "Chandan Enterprise",
 
@@ -74,7 +73,7 @@ type: "website",
 images: [
   {
     url:
-      "https://www.chandanenterprise.com/repair-maintenance/og-image.jpg",
+      "https://www.chandanenterprises.com/repair-maintenance/og-image.jpg",
 
     width: 1200,
     height: 630,
@@ -98,7 +97,7 @@ description:
   "Professional waterproofing, repair and renovation solutions.",
 
 images: [
-  "https://www.chandanenterprise.com/repair-maintenance/og-image.jpg",
+  "https://www.chandanenterprises.com/repair-maintenance/og-image.jpg",
 ],
 
 
@@ -113,12 +112,12 @@ const localBusinessSchema = {
 
 name: "Chandan Enterprise",
 
-url: "https://www.chandanenterprise.com",
+url: "https://www.chandanenterprises.com",
 
 telephone: "+91 95581 89429",
 
 image:
-  "https://www.chandanenterprise.com/logo.png",
+  "https://www.chandanenterprises.com/logo.png",
 
 description:
   "Building repair, waterproofing, renovation and maintenance services in Ahmedabad.",
@@ -235,7 +234,7 @@ itemListElement: [
     "@type": "ListItem",
     position: 1,
     name: "Home",
-    item: "https://www.chandanenterprise.com",
+    item: "https://www.chandanenterprises.com",
   },
 
   {
@@ -243,7 +242,7 @@ itemListElement: [
     position: 2,
     name: "Repair & Maintenance",
     item:
-      "https://www.chandanenterprise.com/repair-maintenance",
+      "https://www.chandanenterprises.com/repair-maintenance",
   },
 ],
 

@@ -211,9 +211,20 @@ export default function RootLayout({
                 "Ahmedabad",
                 "Gandhinagar",
                 "Satellite",
+                "Prahlad Nagar",
+                "SG Highway",
                 "Bopal",
+                "South Bopal",
+                "Science City",
+                "Thaltej",
+                "Bodakdev",
+                "Vastrapur",
+                "Gota",
+                "Chandkheda",
+                "Motera",
                 "Nikol",
                 "Naroda",
+                "Maninagar",
               ],
 
               priceRange: "₹₹",
@@ -227,15 +238,73 @@ export default function RootLayout({
                 "Professional waterproofing services for roofs, terraces, basements, bathrooms & wall leakage repair.",
 
               serviceType: [
-                "Roof Waterproofing",
                 "Terrace Waterproofing",
+                "Roof Waterproofing",
                 "Basement Waterproofing",
-                "Bathroom Leakage Repair",
-                "Wall Seepage Treatment",
+                "Bathroom Waterproofing",
+                "Water Leakage Repair",
+                "Wall Crack Repair",
+                "Damp Proofing",
+                "Structural Repair",
+                "Home Renovation",
+                "Office Renovation",
+                "Property Refurbishment",
+                "Building Restoration",
+                "False Ceiling",
+                "Gypsum Partition",
+                "Painting Services",
+                "Civil Maintenance",
               ],
             }),
           }}
         />
+
+        <Script
+  id="organization-schema"
+  type="application/ld+json"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+
+      name: "Chandan Enterprise",
+
+      url: "https://www.chandanenterprises.com",
+
+      logo: "https://www.chandanenterprises.com/logo.png",
+
+      telephone: "+919558189429",
+
+      address: {
+        "@type": "PostalAddress",
+
+        addressLocality: "Ahmedabad",
+
+        addressRegion: "Gujarat",
+
+        addressCountry: "IN",
+      },
+    }),
+  }}
+/>
+
+<Script
+  id="website-schema"
+  type="application/ld+json"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+
+      "@type": "WebSite",
+
+      name: "Chandan Enterprise",
+
+      url: "https://www.chandanenterprises.com",
+    }),
+  }}
+/>
 
         <LayoutWrapper>{children}</LayoutWrapper>
       </body>
