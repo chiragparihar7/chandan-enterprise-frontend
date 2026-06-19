@@ -12,7 +12,7 @@ const projects = [
     before:
       "/repair-maintenance/before4.jpg",
     after:
-      "/repair-maintenance/after4.jpg",
+      "/repair-maintenance/after4.png",
 
     title: "Terrace Waterproofing & Leakage Repair",
 

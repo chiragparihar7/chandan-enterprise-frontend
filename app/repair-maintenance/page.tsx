@@ -14,8 +14,7 @@ import ContactForm from "@/components/repair-maintenance/ContactForm";
 import FloatingCTA from "@/components/repair-maintenance/FloatingCTA";
 
 export const metadata: Metadata = {
-  title:
-    "Repair & Maintenance Services in Ahmedabad | Chandan Enterprise",
+  title: "Repair & Maintenance Services in Ahmedabad | Chandan Enterprise",
   description:
     "Professional repair and maintenance services in Ahmedabad. Expert solutions for water leakage repair, terrace repair, wall crack repair, damp proofing, waterproofing maintenance, and structural repairs. Free inspection available.",
 
@@ -34,8 +33,7 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title:
-      "Repair & Maintenance Services in Ahmedabad | Chandan Enterprise",
+    title: "Repair & Maintenance Services in Ahmedabad | Chandan Enterprise",
     description:
       "Professional repair and maintenance services in Ahmedabad with free inspection and expert solutions.",
     type: "website",
@@ -55,17 +53,15 @@ export default function RepairMaintenancePage() {
 
       <BeforeAfterGallery />
 
+      <ServiceAreas />
+
       <WhyChooseUs />
 
       <RepairProcess />
 
-      <ServiceAreas />
-
       <Testimonials />
 
       <FAQ />
-
-      
 
       <ContactForm />
 
