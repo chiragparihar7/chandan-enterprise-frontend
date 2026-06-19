@@ -14,58 +14,282 @@ import ContactForm from "@/components/repair-maintenance/ContactForm";
 import FloatingCTA from "@/components/repair-maintenance/FloatingCTA";
 
 export const metadata: Metadata = {
-  title: "Repair & Maintenance Services in Ahmedabad | Chandan Enterprise",
-  description:
-    "Professional repair and maintenance services in Ahmedabad. Expert solutions for water leakage repair, terrace repair, wall crack repair, damp proofing, waterproofing maintenance, and structural repairs. Free inspection available.",
+metadataBase: new URL("https://www.chandanenterprise.com"),
 
-  keywords: [
-    "repair services Ahmedabad",
-    "maintenance services Ahmedabad",
-    "water leakage repair Ahmedabad",
-    "terrace repair Ahmedabad",
-    "roof repair Ahmedabad",
-    "wall crack repair Ahmedabad",
-    "damp proofing Ahmedabad",
-    "waterproofing maintenance Ahmedabad",
-    "building repair Ahmedabad",
-    "property maintenance Ahmedabad",
-    "Chandan Enterprise",
-  ],
+title:
+"Building Repair, Waterproofing & Renovation Services in Ahmedabad | Chandan Enterprise",
 
-  openGraph: {
-    title: "Repair & Maintenance Services in Ahmedabad | Chandan Enterprise",
-    description:
-      "Professional repair and maintenance services in Ahmedabad with free inspection and expert solutions.",
-    type: "website",
+description:
+"Professional building repair, waterproofing, renovation, false ceiling, gypsum partition and maintenance services in Ahmedabad. Free site inspection available.",
+
+keywords: [
+"building repair Ahmedabad",
+"waterproofing Ahmedabad",
+"repair and maintenance Ahmedabad",
+"renovation services Ahmedabad",
+"water leakage repair Ahmedabad",
+"terrace waterproofing Ahmedabad",
+"roof waterproofing Ahmedabad",
+"wall crack repair Ahmedabad",
+"damp proofing Ahmedabad",
+"structural repair Ahmedabad",
+"home renovation Ahmedabad",
+"office renovation Ahmedabad",
+"false ceiling Ahmedabad",
+"gypsum partition Ahmedabad",
+"property maintenance Ahmedabad",
+"civil contractor Ahmedabad",
+"building restoration Ahmedabad",
+"repair contractor Ahmedabad",
+"Chandan Enterprise",
+],
+
+alternates: {
+canonical:
+"https://www.chandanenterprise.com/repair-maintenance",
+},
+
+robots: {
+index: true,
+follow: true,
+},
+
+openGraph: {
+title:
+"Building Repair, Waterproofing & Renovation Services in Ahmedabad",
+
+
+description:
+  "Trusted repair, waterproofing, renovation and maintenance solutions across Ahmedabad.",
+
+url:
+  "https://www.chandanenterprise.com/repair-maintenance",
+
+siteName: "Chandan Enterprise",
+
+locale: "en_IN",
+
+type: "website",
+
+images: [
+  {
+    url:
+      "https://www.chandanenterprise.com/repair-maintenance/og-image.jpg",
+
+    width: 1200,
+    height: 630,
+
+    alt:
+      "Repair Maintenance Services Ahmedabad",
   },
+],
+
+
+},
+
+twitter: {
+card: "summary_large_image",
+
+
+title:
+  "Repair & Waterproofing Services Ahmedabad",
+
+description:
+  "Professional waterproofing, repair and renovation solutions.",
+
+images: [
+  "https://www.chandanenterprise.com/repair-maintenance/og-image.jpg",
+],
+
+
+},
 };
 
 export default function RepairMaintenancePage() {
-  return (
-    <main className="overflow-hidden bg-white">
-      <RepairHero />
+const localBusinessSchema = {
+"@context": "https://schema.org",
+"@type": "LocalBusiness",
 
-      <TrustBar />
 
-      <ProblemsSection />
+name: "Chandan Enterprise",
 
-      <ServicesGrid />
+url: "https://www.chandanenterprise.com",
 
-      <BeforeAfterGallery />
+telephone: "+91 95581 89429",
 
-      <ServiceAreas />
+image:
+  "https://www.chandanenterprise.com/logo.png",
 
-      <WhyChooseUs />
+description:
+  "Building repair, waterproofing, renovation and maintenance services in Ahmedabad.",
 
-      <RepairProcess />
+areaServed: [
+  "Ahmedabad",
+  "Satellite",
+  "Prahlad Nagar",
+  "SG Highway",
+  "Bopal",
+  "South Bopal",
+  "Science City",
+  "Thaltej",
+  "Bodakdev",
+  "Vastrapur",
+  "Gota",
+  "Chandkheda",
+  "Motera",
+  "Nikol",
+  "Naroda",
+  "Maninagar",
+  "Gandhinagar",
+],
 
-      <Testimonials />
+address: {
+  "@type": "PostalAddress",
+  addressLocality: "Ahmedabad",
+  addressRegion: "Gujarat",
+  addressCountry: "IN",
+},
 
-      <FAQ />
 
-      <ContactForm />
+};
 
-      <FloatingCTA />
-    </main>
-  );
+const serviceSchema = {
+"@context": "https://schema.org",
+"@type": "Service",
+
+
+serviceType:
+  "Building Repair and Waterproofing Services",
+
+provider: {
+  "@type": "LocalBusiness",
+  name: "Chandan Enterprise",
+},
+
+areaServed: "Ahmedabad",
+
+hasOfferCatalog: {
+  "@type": "OfferCatalog",
+  name: "Repair Maintenance Services",
+
+  itemListElement: [
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Terrace Waterproofing",
+      },
+    },
+
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Water Leakage Repair",
+      },
+    },
+
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Wall Crack Repair",
+      },
+    },
+
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "False Ceiling Work",
+      },
+    },
+
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Gypsum Partition Work",
+      },
+    },
+
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Home Renovation",
+      },
+    },
+  ],
+},
+
+
+};
+
+const breadcrumbSchema = {
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+
+itemListElement: [
+  {
+    "@type": "ListItem",
+    position: 1,
+    name: "Home",
+    item: "https://www.chandanenterprise.com",
+  },
+
+  {
+    "@type": "ListItem",
+    position: 2,
+    name: "Repair & Maintenance",
+    item:
+      "https://www.chandanenterprise.com/repair-maintenance",
+  },
+],
+
+
+};
+
+return (
+<>
+<script
+type="application/ld+json"
+dangerouslySetInnerHTML={{
+__html: JSON.stringify(localBusinessSchema),
+}}
+/>
+
+
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(serviceSchema),
+    }}
+  />
+
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(breadcrumbSchema),
+    }}
+  />
+
+  <main className="overflow-hidden bg-white">
+    <RepairHero />
+    <TrustBar />
+    <ProblemsSection />
+    <ServicesGrid />
+    <BeforeAfterGallery />
+    <ServiceAreas />
+    <WhyChooseUs />
+    <RepairProcess />
+    <Testimonials />
+    <FAQ />
+    <ContactForm />
+    <FloatingCTA />
+  </main>
+</>
+
+
+);
 }
