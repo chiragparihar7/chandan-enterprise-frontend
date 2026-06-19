@@ -10,9 +10,9 @@ import {
 const projects = [
   {
     before:
-      "/repair-maintenance/before1.jpg",
+      "/repair-maintenance/before4.jpg",
     after:
-      "/repair-maintenance/after1.jpg",
+      "/repair-maintenance/after4.jpg",
 
     title: "Terrace Waterproofing & Leakage Repair",
 
