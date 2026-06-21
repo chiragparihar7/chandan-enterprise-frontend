@@ -34,19 +34,25 @@ const stats = [
 ];
 
 export default function RepairHero() {
-  const handleCallClick = () => {
-    window.gtag?.("event", "phone_click", {
-      event_category: "Contact",
-      event_label: "Hero Call Button",
-    });
-  };
+const handleCallClick = () => {
+  window.gtag?.("event", "conversion", {
+    send_to: "AW-18164619419/LkPaCOja_8IcEJuxyNVD",
+  });
 
-  const handleWhatsappClick = () => {
-    window.gtag?.("event", "whatsapp_click", {
-      event_category: "Contact",
-      event_label: "Hero WhatsApp Button",
-    });
-  };
+  setTimeout(() => {
+    window.location.href = "tel:+919558189429";
+  }, 200);
+};
+
+const handleWhatsappClick = () => {
+  window.gtag?.("event", "conversion", {
+    send_to: "AW-18164619419/MjG_CObf7MIcEJuxyNVD",
+  });
+
+  setTimeout(() => {
+    window.open("https://wa.me/919558189429", "_blank");
+  }, 200);
+};
   return (
     <section className="relative overflow-hidden bg-[#08111F] text-white">
       {/* Background Glow */}
@@ -119,25 +125,22 @@ export default function RepairHero() {
             transition={{ delay: 0.3 }}
             className="mt-10 flex flex-col justify-center gap-4 sm:flex-row"
           >
-            <Link
-              href="tel:+919558189429"
+            <button
               onClick={handleCallClick}
               className="inline-flex items-center justify-center gap-2 rounded-2xl bg-cyan-500 px-8 py-4 font-semibold text-slate-950 transition-all duration-300 hover:bg-cyan-400"
             >
               <Phone size={20} />
               Call Now
-            </Link>
+            </button>
 
-            <Link
-              href="https://wa.me/919558189429"
-              target="_blank"
+            <button
               onClick={handleWhatsappClick}
               className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-900 px-8 py-4 font-semibold transition-all duration-300 hover:border-cyan-500"
             >
               <MessageCircle size={20} />
               WhatsApp
               <ArrowRight size={18} />
-            </Link>
+            </button>
           </motion.div>
         </div>
       </div>

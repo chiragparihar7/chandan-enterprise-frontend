@@ -131,7 +131,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col bg-white text-black">
         {/* Google Ads / Analytics Tag */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18170685424"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18164619419"
           strategy="afterInteractive"
         />
 
@@ -145,7 +145,7 @@ export default function RootLayout({
 
             gtag('js', new Date());
 
-            gtag('config', 'AW-18170685424');
+            gtag('config', 'AW-18164619419');
           `}
         </Script>
 
@@ -260,51 +260,51 @@ export default function RootLayout({
         />
 
         <Script
-  id="organization-schema"
-  type="application/ld+json"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Organization",
+          id="organization-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
 
-      name: "Chandan Enterprise",
+              name: "Chandan Enterprise",
 
-      url: "https://www.chandanenterprises.com",
+              url: "https://www.chandanenterprises.com",
 
-      logo: "https://www.chandanenterprises.com/logo.png",
+              logo: "https://www.chandanenterprises.com/logo.png",
 
-      telephone: "+919558189429",
+              telephone: "+919558189429",
 
-      address: {
-        "@type": "PostalAddress",
+              address: {
+                "@type": "PostalAddress",
 
-        addressLocality: "Ahmedabad",
+                addressLocality: "Ahmedabad",
 
-        addressRegion: "Gujarat",
+                addressRegion: "Gujarat",
 
-        addressCountry: "IN",
-      },
-    }),
-  }}
-/>
+                addressCountry: "IN",
+              },
+            }),
+          }}
+        />
 
-<Script
-  id="website-schema"
-  type="application/ld+json"
-  strategy="afterInteractive"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
+        <Script
+          id="website-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
 
-      "@type": "WebSite",
+              "@type": "WebSite",
 
-      name: "Chandan Enterprise",
+              name: "Chandan Enterprise",
 
-      url: "https://www.chandanenterprises.com",
-    }),
-  }}
-/>
+              url: "https://www.chandanenterprises.com",
+            }),
+          }}
+        />
 
         <LayoutWrapper>{children}</LayoutWrapper>
       </body>
