@@ -1,26 +1,648 @@
 @import "tailwindcss";
 
+/* =========================================================
+   CHANDAN ENTERPRISES
+   GLOBAL DESIGN SYSTEM
+   ========================================================= */
+
 :root {
+  /* =======================================================
+     BRAND COLORS
+  ======================================================== */
+
+  --chandan-primary: #015696;
+  --chandan-primary-dark: #0b3f67;
+  --chandan-primary-light: #016db5;
+
+  --chandan-navy: #092a43;
+  --chandan-navy-dark: #061b2b;
+
+  /* =======================================================
+     BACKGROUNDS
+  ======================================================== */
+
   --background: #ffffff;
-  --foreground: #171717;
+  --background-soft: #f7f9fc;
+  --background-blue: #f1f8fc;
+  --background-dark: #061b2b;
+
+  /* =======================================================
+     TEXT
+  ======================================================== */
+
+  --foreground: #111827;
+
+  --text-primary: #111827;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+  --text-white: #ffffff;
+
+  /* =======================================================
+     BORDERS
+  ======================================================== */
+
+  --border: #dce8f0;
+  --border-light: #e8f0f5;
+  --border-dark: #23445b;
+
+  /* =======================================================
+     SURFACES
+  ======================================================== */
+
+  --surface: #ffffff;
+  --surface-soft: #f8fbfd;
+  --surface-blue: #eef8fd;
+  --surface-dark: #092a43;
+
+  /* =======================================================
+     SHADOWS
+  ======================================================== */
+
+  --shadow-sm:
+    0 4px 15px rgba(9, 42, 67, 0.06);
+
+  --shadow-md:
+    0 10px 30px rgba(9, 42, 67, 0.08);
+
+  --shadow-lg:
+    0 20px 60px rgba(9, 42, 67, 0.12);
+
+  --shadow-blue:
+    0 10px 30px rgba(1, 86, 150, 0.18);
+
+  /* =======================================================
+     RADIUS
+  ======================================================== */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* =======================================================
+     LAYOUT
+  ======================================================== */
+
+  --container-width: 1320px;
+  --header-height: 82px;
+
+  /* =======================================================
+     TRANSITIONS
+  ======================================================== */
+
+  --transition-fast: 180ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* =======================================================
+     FONT
+  ======================================================== */
+
+  --font-sans:
+    Arial,
+    Helvetica,
+    sans-serif;
 }
+
+
+/* =========================================================
+   TAILWIND THEME
+========================================================= */
 
 @theme inline {
+  /* Brand */
+
+  --color-chandan-primary: var(--chandan-primary);
+  --color-chandan-primary-dark: var(--chandan-primary-dark);
+  --color-chandan-primary-light: var(--chandan-primary-light);
+
+  --color-chandan-navy: var(--chandan-navy);
+  --color-chandan-navy-dark: var(--chandan-navy-dark);
+
+  /* Background */
+
   --color-background: var(--background);
+  --color-background-soft: var(--background-soft);
+  --color-background-blue: var(--background-blue);
+  --color-background-dark: var(--background-dark);
+
+  /* Text */
+
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-light: var(--text-light);
+  --color-text-white: var(--text-white);
+
+  /* Surface */
+
+  --color-surface: var(--surface);
+  --color-surface-soft: var(--surface-soft);
+  --color-surface-blue: var(--surface-blue);
+  --color-surface-dark: var(--surface-dark);
+
+  /* Borders */
+
+  --color-border: var(--border);
+  --color-border-light: var(--border-light);
+  --color-border-dark: var(--border-dark);
+
+  /* Fonts */
+
+  --font-sans: var(--font-sans);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+/* =========================================================
+   BASE STYLES
+
+   IMPORTANT:
+   Keep these inside @layer base so Tailwind utilities
+   such as text-white / text-[#015696] can override them.
+========================================================= */
+
+@layer base {
+
+  /* -------------------------------------------------------
+     BOX SIZING
+  ------------------------------------------------------- */
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+
+  /* -------------------------------------------------------
+     HTML
+  ------------------------------------------------------- */
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height);
+  }
+
+
+  /* -------------------------------------------------------
+     BODY
+  ------------------------------------------------------- */
+
+  body {
+    margin: 0;
+
+    background: var(--background);
+
+    color: var(--foreground);
+
+    font-family:
+      Arial,
+      Helvetica,
+      sans-serif;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    -webkit-font-smoothing: antialiased;
+
+    -moz-osx-font-smoothing: grayscale;
+
+    text-rendering: optimizeLegibility;
+  }
+
+
+  /* -------------------------------------------------------
+     HEADINGS
+  ------------------------------------------------------- */
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+
+    color: var(--text-primary);
+
+    font-weight: 700;
+
+    line-height: 1.15;
+
+    letter-spacing: -0.025em;
+  }
+
+
+  /* -------------------------------------------------------
+     PARAGRAPHS
+  ------------------------------------------------------- */
+
+  p {
+    margin: 0;
+  }
+
+
+  /* -------------------------------------------------------
+     LINKS
+  ------------------------------------------------------- */
+
+  a {
+    color: inherit;
+
+    text-decoration: none;
+  }
+
+
+  /* -------------------------------------------------------
+     FORM ELEMENTS
+  ------------------------------------------------------- */
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+
+  /* -------------------------------------------------------
+     BUTTON
+  ------------------------------------------------------- */
+
+  button {
+    cursor: pointer;
+  }
+
+
+  /* -------------------------------------------------------
+     IMAGES
+  ------------------------------------------------------- */
+
+  img {
+    max-width: 100%;
+
+    height: auto;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+/* =========================================================
+   TEXT SELECTION
+========================================================= */
+
+::selection {
+  background: var(--chandan-primary);
+  color: #ffffff;
+}
+
+
+/* =========================================================
+   SCROLLBAR
+========================================================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b8ccda;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--chandan-primary);
+}
+
+
+/* =========================================================
+   FOCUS
+========================================================= */
+
+:focus-visible {
+  outline: 2px solid var(--chandan-primary);
+  outline-offset: 3px;
+}
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.container-chandan {
+  width: 100%;
+  max-width: var(--container-width);
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* =========================================================
+   SECTIONS
+========================================================= */
+
+.section {
+  width: 100%;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-soft {
+  background: var(--background-soft);
+}
+
+.section-blue {
+  background: var(--background-blue);
+}
+
+.section-dark {
+  background: var(--background-dark);
+}
+
+
+/* =========================================================
+   BUTTON SYSTEM
+========================================================= */
+
+.btn-primary {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  min-height: 46px;
+
+  padding: 0 22px;
+
+  border: 1px solid var(--chandan-primary);
+
+  border-radius: var(--radius-full);
+
+  background: var(--chandan-primary);
+
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  transition:
+    background-color var(--transition-normal),
+    border-color var(--transition-normal),
+    transform var(--transition-normal),
+    box-shadow var(--transition-normal);
+}
+
+.btn-primary:hover {
+  background: var(--chandan-primary-dark);
+
+  border-color: var(--chandan-primary-dark);
+
+  transform: translateY(-2px);
+
+  box-shadow: var(--shadow-blue);
+}
+
+
+.btn-secondary {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  min-height: 46px;
+
+  padding: 0 22px;
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius-full);
+
+  background: #ffffff;
+
+  color: var(--chandan-navy);
+
+  font-size: 14px;
+  font-weight: 700;
+
+  transition:
+    background-color var(--transition-normal),
+    border-color var(--transition-normal),
+    color var(--transition-normal),
+    transform var(--transition-normal);
+}
+
+.btn-secondary:hover {
+  border-color: var(--chandan-primary);
+
+  color: var(--chandan-primary);
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   CARD
+========================================================= */
+
+.chandan-card {
+  background: var(--surface);
+
+  border: 1px solid var(--border-light);
+
+  border-radius: var(--radius-lg);
+
+  box-shadow: var(--shadow-sm);
+
+  transition:
+    transform var(--transition-normal),
+    box-shadow var(--transition-normal),
+    border-color var(--transition-normal);
+}
+
+.chandan-card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--border);
+
+  box-shadow: var(--shadow-md);
+}
+
+
+/* =========================================================
+   BLUE CARD
+========================================================= */
+
+.chandan-card-blue {
+  background: var(--surface-blue);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius-lg);
+}
+
+
+/* =========================================================
+   DARK CARD
+========================================================= */
+
+.chandan-card-dark {
+  background: var(--surface-dark);
+
+  border: 1px solid var(--border-dark);
+
+  border-radius: var(--radius-lg);
+
+  color: #ffffff;
+}
+
+
+/* =========================================================
+   BRAND GRADIENT
+========================================================= */
+
+.chandan-gradient {
+  background:
+    linear-gradient(
+      135deg,
+      #016db5 0%,
+      #015696 50%,
+      #092a43 100%
+    );
+}
+
+
+/* =========================================================
+   SOFT GRADIENT
+========================================================= */
+
+.chandan-gradient-soft {
+  background:
+    linear-gradient(
+      135deg,
+      #f7fbfd 0%,
+      #eef8fd 100%
+    );
+}
+
+
+/* =========================================================
+   TEXT UTILITIES
+========================================================= */
+
+.text-chandan {
+  color: var(--chandan-primary);
+}
+
+.text-chandan-navy {
+  color: var(--chandan-navy);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+
+/* =========================================================
+   HEADER OFFSET
+========================================================= */
+
+.header-offset {
+  padding-top: var(--header-height);
+}
+
+
+/* =========================================================
+   HOVER LIFT
+========================================================= */
+
+.hover-lift {
+  transition:
+    transform var(--transition-normal),
+    box-shadow var(--transition-normal);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+
+  box-shadow: var(--shadow-md);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (min-width: 640px) {
+  .container-chandan {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .container-chandan {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .container-chandan {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+
+@media (max-width: 639px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+  }
 }
