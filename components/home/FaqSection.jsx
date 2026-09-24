@@ -1,107 +1,178 @@
 "use client";
 
-import React, { useState } from "react";
+import {
+  ArrowUpRight,
+  ChevronDown,
+  HelpCircle,
+  Phone,
+} from "lucide-react";
 
 const faqs = [
   {
-    question: "What waterproofing services do you provide?",
+    question: "What waterproofing services does Chandan Enterprises provide?",
     answer:
-      "We provide terrace, bathroom, basement waterproofing, leakage repair, and complete civil maintenance services.",
+      "Chandan Enterprises provides waterproofing and leakage protection solutions including terrace waterproofing, bathroom waterproofing, exterior wall waterproofing, rising dampness treatment, basement waterproofing, swimming pool waterproofing, PU injection grouting, expansion joint sealing and roof waterproofing.",
   },
   {
-    question: "Do you offer free inspection?",
+    question: "How do you identify the cause of water leakage?",
     answer:
-      "Yes, we offer a completely free site inspection to identify the issue and suggest the best solution.",
+      "The process begins with site inspection and leak detection. The affected area, surface condition and visible signs of moisture are considered before determining the appropriate waterproofing or leakage treatment.",
   },
   {
-    question: "How long does waterproofing last?",
+    question: "Do you provide terrace and roof waterproofing?",
     answer:
-      "Our solutions come with 1 / 3 / 5 / 7 / 10 years warranty depending on the service.",
+      "Yes. Terrace waterproofing and roof waterproofing are part of our waterproofing services. The treatment approach depends on the condition of the roof or terrace and the nature of the leakage or seepage problem.",
   },
   {
-    question: "What materials do you use?",
+    question: "Do you provide bathroom waterproofing?",
     answer:
-      "We use premium quality, industry-approved materials for long-lasting protection.",
+      "Yes. Bathroom waterproofing is available for wet areas where moisture penetration, leakage or dampness can affect surrounding surfaces and spaces.",
   },
   {
-    question: "How much does waterproofing cost?",
+    question: "Can you treat damp walls and seepage?",
     answer:
-      "Pricing depends on the problem and area. We provide transparent quotes with no hidden charges.",
+      "Yes. Chandan Enterprises provides exterior wall waterproofing and rising dampness treatment for moisture-related problems. The appropriate treatment depends on the source and condition of the affected area.",
   },
   {
-    question: "How quickly can work start?",
+    question: "Do you provide basement waterproofing?",
     answer:
-      "Work usually starts within 1–2 days after inspection and confirmation.",
+      "Yes. Basement waterproofing is one of our services for properties experiencing moisture, seepage or water penetration in basement areas.",
+  },
+  {
+    question: "Which areas do you serve?",
+    answer:
+      "Our primary service location is Ahmedabad, Gujarat, with service coverage across Ahmedabad and nearby areas depending on the project requirement.",
+  },
+  {
+    question: "How can I request a waterproofing inspection?",
+    answer:
+      "You can contact Chandan Enterprises through the enquiry form, phone or WhatsApp to discuss your waterproofing or leakage problem and request an inspection.",
   },
 ];
 
-export default function FaqSectionNeutral() {
-  const [activeIndex, setActiveIndex] = useState(null);
-
+export default function FaqSection() {
   return (
-    <section className="bg-gray-50 py-12 px-6">
-      <div className="max-w-7xl mx-auto">
+    <section className="relative w-full overflow-hidden bg-[#FCFBF8] py-10 sm:py-12 lg:py-14">
+      {/* Background details */}
+      <div className="pointer-events-none absolute right-[-180px] top-[-180px] h-[420px] w-[420px] rounded-full bg-[#1687C5]/5 blur-3xl" />
 
-        {/* Heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-black">
-            Frequently Asked Questions
-          </h2>
-          <p className="text-gray-600 mt-3">
-            Everything you need to know about our waterproofing services.
-          </p>
+      <div className="mx-auto max-w-[1280px] px-5 sm:px-6 lg:px-8">
+        {/* HEADER */}
+        <div className="grid gap-6 border-b border-[#DCE5E9] pb-10 lg:grid-cols-[1fr_auto] lg:items-end">
+          <div>
+            <div className="mb-4 flex items-center gap-3">
+              <span className="h-px w-10 bg-[#1687C5]" />
+
+              <span className="text-xs font-bold uppercase tracking-[3px] text-[#1687C5]">
+                FAQ / Support
+              </span>
+            </div>
+
+            <h2 className="max-w-3xl text-3xl font-bold leading-[1.1] tracking-tight text-[#12324A] sm:text-4xl lg:text-5xl">
+              Everything you need to know
+              <span className="text-[#1687C5]"> before waterproofing.</span>
+            </h2>
+          </div>
+
+          <div className="max-w-sm lg:text-right">
+            <p className="text-sm leading-7 text-[#64748B]">
+              Clear answers about leakage, seepage, waterproofing treatments,
+              inspections and service coverage.
+            </p>
+          </div>
         </div>
 
-        {/* Grid */}
-        <div className="grid md:grid-cols-2 gap-6">
+        {/* FAQ CONTENT */}
+        <div className="mt-10 grid gap-10 lg:grid-cols-[190px_1fr] lg:gap-14">
+          {/* LEFT INDEX */}
+          <div className="hidden lg:block">
+            <div className="sticky top-24">
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#12324A] text-white">
+                <HelpCircle size={25} strokeWidth={1.8} />
+              </div>
 
-          {faqs.map((faq, index) => (
-            <div
-              key={index}
-              className={`rounded-2xl border p-5 transition duration-300 ${
-                activeIndex === index
-                  ? "border-black shadow-lg bg-white"
-                  : "border-gray-200 bg-white hover:shadow-md"
-              }`}
-            >
-              {/* Question */}
-              <button
-                onClick={() =>
-                  setActiveIndex(activeIndex === index ? null : index)
-                }
-                className="w-full flex justify-between items-center text-left"
+              <p className="mt-5 text-xs font-bold uppercase tracking-[2px] text-[#1687C5]">
+                Questions
+              </p>
+
+              <p className="mt-2 text-4xl font-bold tracking-tight text-[#12324A]">
+                08
+              </p>
+
+              <p className="mt-1 text-xs leading-5 text-[#64748B]">
+                Frequently asked questions
+              </p>
+
+              <div className="mt-7 h-px w-12 bg-[#1687C5]" />
+            </div>
+          </div>
+
+          {/* QUESTIONS */}
+          <div className="grid gap-x-8 gap-y-4 md:grid-cols-2">
+            {faqs.map((faq, index) => (
+              <details
+                key={faq.question}
+                open={index === 0}
+                className="group border-b border-[#DCE5E9] pb-1"
               >
-                <h3 className="text-gray-900 font-medium text-base md:text-lg">
-                  {faq.question}
-                </h3>
+                <summary className="flex cursor-pointer list-none items-start gap-4 py-5">
+                  {/* NUMBER */}
+                  <span className="mt-0.5 shrink-0 font-mono text-xs font-bold text-[#1687C5]">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
 
-                {/* Neutral Button */}
-                <div
-                  className={`min-w-[42px] h-10 flex items-center justify-center rounded-full text-lg transition ${
-                    activeIndex === index
-                      ? "bg-black text-white"
-                      : "bg-gray-200 text-black"
-                  }`}
-                >
-                  {activeIndex === index ? "−" : "+"}
+                  {/* QUESTION */}
+                  <span className="flex-1 pr-2 text-sm font-bold leading-6 text-[#12324A] sm:text-base">
+                    {faq.question}
+                  </span>
+
+                  {/* ICON */}
+                  <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[#D6E4EA] text-[#12324A] transition-all duration-300 group-open:border-[#1687C5] group-open:bg-[#1687C5] group-open:text-white group-open:rotate-180">
+                    <ChevronDown size={16} />
+                  </span>
+                </summary>
+
+                <div className="pb-5 pl-8 pr-2 sm:pl-9">
+                  <p className="text-sm leading-7 text-[#64748B]">
+                    {faq.answer}
+                  </p>
                 </div>
-              </button>
+              </details>
+            ))}
+          </div>
+        </div>
 
-              {/* Answer */}
-              <div
-                className={`transition-all duration-300 ${
-                  activeIndex === index
-                    ? "max-h-40 mt-4 opacity-100"
-                    : "max-h-0 opacity-0 overflow-hidden"
-                }`}
-              >
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {faq.answer}
+        {/* CONTACT BAR */}
+        <div className="mt-12 overflow-hidden rounded-[24px] bg-[#12324A]">
+          <div className="flex flex-col gap-6 px-6 py-7 sm:px-8 lg:flex-row lg:items-center lg:justify-between lg:px-10">
+            <div className="flex items-start gap-4">
+              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-[#1687C5] text-white">
+                <Phone size={19} />
+              </div>
+
+              <div>
+                <p className="text-sm font-bold text-white sm:text-base">
+                  Still have a waterproofing question?
+                </p>
+
+                <p className="mt-1 text-xs leading-5 text-white/60 sm:text-sm">
+                  Talk to Chandan Enterprises about your leakage or seepage
+                  problem.
                 </p>
               </div>
             </div>
-          ))}
 
+            <a
+              href="tel:+919558189429"
+              className="group inline-flex items-center justify-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-bold text-[#12324A] transition hover:bg-[#EFF9FE]"
+            >
+              Speak With Us
+              <ArrowUpRight
+                size={17}
+                className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </section>
