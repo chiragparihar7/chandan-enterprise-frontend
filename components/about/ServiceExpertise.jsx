@@ -14,28 +14,28 @@ const services = [
     title: "Terrace Waterproofing",
     shortTitle: "Terrace Protection",
     desc: "Protecting exposed terrace surfaces against water penetration, leakage and moisture-related damage.",
-    image: "/about/terrace_waterproofing.jpg",
+    image: "/About/terrace_waterproofing.jpg",
   },
   {
     number: "02",
     title: "Bathroom Leakage",
     shortTitle: "Wet Area Protection",
     desc: "Waterproofing solutions for bathrooms and wet areas where leakage and seepage can become recurring problems.",
-    image: "/about/bathroom_waterproofing.jpg",
+    image: "/About/bathroom_waterproofing.jpg",
   },
   {
     number: "03",
     title: "PU Coating",
     shortTitle: "Surface Protection",
     desc: "Polyurethane-based coating solutions for applications requiring an additional protective waterproofing layer.",
-    image: "/about/pu_grouting.jpg",
+    image: "/About/pu_grouting.jpg",
   },
   {
     number: "04",
     title: "Basement Protection",
     shortTitle: "Seepage Control",
     desc: "Waterproofing approaches designed to help protect basement areas from seepage and moisture penetration.",
-    image: "/about/basement_waterproofing.jpg",
+    image: "/About/basement_waterproofing.jpg",
   },
 ];
 

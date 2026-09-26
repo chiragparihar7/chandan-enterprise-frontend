@@ -127,7 +127,7 @@ export default function ClientHero() {
             <div className="relative ml-auto max-w-[600px]">
               <div className="relative h-[430px] overflow-hidden rounded-[30px] bg-[#092a43] shadow-[0_25px_70px_rgba(9,42,67,0.14)] sm:h-[500px] lg:h-[540px]">
                 <Image
-                  src="/about/company_overivew.jpg"
+                  src="/About/company_overivew.jpg"
                   alt="Chandan Enterprises waterproofing work"
                   fill
                   priority
