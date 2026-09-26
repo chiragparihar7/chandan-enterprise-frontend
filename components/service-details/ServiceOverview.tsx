@@ -153,7 +153,7 @@ const ServiceOverview: React.FC<ServiceOverviewProps> = ({
             className="relative min-h-[380px] overflow-hidden rounded-[28px] bg-[#092a43] shadow-[0_20px_60px_rgba(9,42,67,0.12)] md:min-h-[460px]"
           >
             <Image
-              src="/about/terrace_waterproofing.jpg"
+              src="/About/terrace_waterproofing.jpg"
               alt="Waterproofing service by Chandan Enterprises"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

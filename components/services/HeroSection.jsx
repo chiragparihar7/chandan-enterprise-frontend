@@ -105,7 +105,7 @@ export default function HeroService() {
               <div className="relative aspect-[1.08/1] overflow-hidden rounded-xl">
 
                 <Image
-                  src="/about/terrace_waterproofing.jpg"
+                  src="/About/terrace_waterproofing.jpg"
                   alt="Terrace waterproofing service by Chandan Enterprises"
                   fill
                   priority

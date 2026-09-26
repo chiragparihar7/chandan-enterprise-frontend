@@ -85,7 +85,7 @@ export default function CompanyStory() {
           {/* Image side */}
           <div className="relative min-h-[420px] overflow-hidden rounded-[24px] border border-[#DCE8F0] bg-[#F7F9FC] shadow-[0_20px_60px_rgba(9,42,67,0.10)] sm:min-h-[500px] lg:min-h-[560px]">
             <Image
-              src="/about/company_overivew.jpg"
+              src="/About/company_overivew.jpg"
               alt="Chandan Enterprise waterproofing team"
               fill
               priority
