@@ -11,10 +11,26 @@ export const services: Service[] = [
     shortDescription:
       "Protect your terrace from water leakage, seepage, cracks, and weather damage with premium waterproofing systems.",
     heroImage: "/Services/terrace_waterproofing.jpg",
-    seoTitle:
-      "Terrace Waterproofing Services in Ahmedabad | Chandan Enterprise",
+    // SEO
+    seoTitle: "Terrace Waterproofing in Ahmedabad",
+
     seoDescription:
-      "Professional terrace waterproofing contractor in Ahmedabad. We provide leak-proof waterproofing solutions with premium materials and expert workmanship.",
+      "Professional terrace waterproofing services in Ahmedabad for roof leakage, water seepage, cracks and dampness. Get a site inspection and project quotation.",
+
+    seoKeywords: [
+      "terrace waterproofing Ahmedabad",
+      "terrace waterproofing services Ahmedabad",
+      "terrace leakage repair Ahmedabad",
+      "roof waterproofing Ahmedabad",
+      "terrace leakage solution",
+      "water seepage treatment Ahmedabad",
+      "roof leakage repair Ahmedabad",
+      "waterproofing contractor Ahmedabad",
+    ],
+
+    canonical:
+      "https://www.chandanenterprises.com/services/terrace-waterproofing",
+
     overview:
       "Terrace waterproofing is one of the most effective ways to protect a building from water damage. Continuous exposure to rain, sunlight, and changing temperatures can create cracks that allow water to seep into the structure. Our waterproofing systems create a durable protective barrier that prevents leakage, increases structural life, and minimizes future maintenance costs.",
     benefits: [
@@ -154,11 +170,28 @@ export const services: Service[] = [
 
     heroImage: "/Services/bathroom_waterproofing.jpg",
 
-    seoTitle:
-      "Bathroom Waterproofing Services in Ahmedabad | Chandan Enterprise",
+    seoTitle: "Bathroom Waterproofing in Ahmedabad",
 
     seoDescription:
-      "Professional bathroom waterproofing services in Ahmedabad for water seepage, leakage, dampness and moisture-related problems in bathrooms and wet areas.",
+      "Bathroom waterproofing services in Ahmedabad for leakage, water seepage, damp walls and wet-area moisture problems.",
+
+    seoKeywords: [
+      "bathroom waterproofing Ahmedabad",
+      "bathroom waterproofing services Ahmedabad",
+      "bathroom leakage repair Ahmedabad",
+      "bathroom seepage treatment Ahmedabad",
+      "bathroom leakage solution",
+      "bathroom water seepage",
+      "wet area waterproofing Ahmedabad",
+      "bathroom waterproofing contractor Ahmedabad",
+      "bathroom waterproofing company Ahmedabad",
+      "bathroom leakage treatment",
+      "waterproofing for bathroom",
+      "bathroom floor waterproofing",
+      "bathroom wall waterproofing",
+      "water seepage solution Ahmedabad",
+      "Chandan Enterprise",
+    ],
 
     overview:
       "Bathroom waterproofing helps protect floors, walls and surrounding areas from water penetration and moisture-related problems. Regular exposure to water can allow moisture to move through joints, cracks and other vulnerable areas, eventually affecting adjacent walls, ceilings or rooms. Our approach focuses on understanding the affected area, preparing the surface properly and applying a suitable waterproofing treatment according to the bathroom condition.",
@@ -269,7 +302,7 @@ export const services: Service[] = [
       {
         category: "Hospitals & Healthcare",
         description:
-          "Suitable bathroom and wet-area requirements within healthcare facilities.",
+          "Bathroom and wet-area requirements within healthcare facilities.",
         icon: "Hospital",
       },
     ],
@@ -325,10 +358,28 @@ export const services: Service[] = [
 
     heroImage: "/Services/roof_waterproofing.jpg",
 
-    seoTitle: "Roof Waterproofing Services in Ahmedabad | Chandan Enterprise",
+    seoTitle: "Roof Waterproofing in Ahmedabad",
 
     seoDescription:
-      "Professional roof waterproofing services in Ahmedabad for roof leakage, water seepage, dampness and moisture-related problems across residential, commercial and industrial properties.",
+      "Professional roof waterproofing services in Ahmedabad for roof leakage, water seepage, damp ceilings, cracks and rainwater protection for all properties.",
+
+    seoKeywords: [
+      "roof waterproofing Ahmedabad",
+      "roof waterproofing services Ahmedabad",
+      "roof leakage repair Ahmedabad",
+      "roof leakage solution Ahmedabad",
+      "roof seepage treatment Ahmedabad",
+      "roof water seepage Ahmedabad",
+      "terrace roof waterproofing Ahmedabad",
+      "roof waterproofing contractor Ahmedabad",
+      "roof waterproofing company Ahmedabad",
+      "rainwater leakage solution",
+      "roof crack waterproofing",
+      "roof leakage treatment",
+      "terrace leakage repair Ahmedabad",
+      "waterproofing contractor Ahmedabad",
+      "Chandan Enterprise",
+    ],
 
     overview:
       "Roof waterproofing helps protect exposed roof surfaces from rainwater, moisture penetration and water-related deterioration. Continuous exposure to changing weather conditions can affect roof surfaces, joints and vulnerable areas, creating potential points for water entry. Our approach focuses on understanding the roof condition, preparing the affected surface and selecting a suitable waterproofing treatment according to the property and site requirements.",
@@ -494,11 +545,29 @@ export const services: Service[] = [
 
     heroImage: "/Services/basement_waterproofings.jpg",
 
-    seoTitle:
-      "Basement Waterproofing Services in Ahmedabad | Chandan Enterprise",
+    seoTitle: "Basement Waterproofing in Ahmedabad",
 
     seoDescription:
-      "Professional basement waterproofing services in Ahmedabad for water seepage, dampness, moisture and water ingress in residential, commercial and industrial properties.",
+      "Professional basement waterproofing services in Ahmedabad for water seepage, damp walls, moisture and water ingress in residential, commercial properties.",
+
+    seoKeywords: [
+      "basement waterproofing Ahmedabad",
+      "basement waterproofing services Ahmedabad",
+      "basement leakage repair Ahmedabad",
+      "basement seepage treatment Ahmedabad",
+      "basement water seepage Ahmedabad",
+      "basement waterproofing contractor Ahmedabad",
+      "basement waterproofing company Ahmedabad",
+      "basement water leakage solution",
+      "basement dampness treatment",
+      "basement moisture protection",
+      "basement wall waterproofing",
+      "basement floor waterproofing",
+      "water ingress treatment Ahmedabad",
+      "commercial basement waterproofing",
+      "industrial basement waterproofing",
+      "Chandan Enterprise",
+    ],
 
     overview:
       "Basement waterproofing helps protect below-ground and partially below-ground spaces from moisture and water entering through walls, floors, joints and other vulnerable areas. Water pressure, surrounding soil moisture and surface conditions can contribute to seepage and dampness. Our approach focuses on understanding the affected basement area, identifying visible water-entry conditions, preparing the surface and selecting a suitable waterproofing treatment according to the site requirement.",
@@ -664,11 +733,29 @@ export const services: Service[] = [
 
     heroImage: "/Services/exterior_wall_waterproofing.jpg",
 
-    seoTitle:
-      "Exterior Wall Waterproofing Services in Ahmedabad | Chandan Enterprise",
+    seoTitle: "Exterior Wall Waterproofing in Ahmedabad",
 
     seoDescription:
-      "Professional exterior wall waterproofing services in Ahmedabad for rainwater penetration, wall seepage, dampness, cracks and moisture-related problems.",
+      "Exterior wall waterproofing in Ahmedabad for rainwater seepage, dampness, cracks and moisture issues in residential, commercial and industrial properties.",
+
+    seoKeywords: [
+      "exterior wall waterproofing Ahmedabad",
+      "exterior wall waterproofing services Ahmedabad",
+      "wall waterproofing Ahmedabad",
+      "exterior wall leakage repair Ahmedabad",
+      "wall seepage treatment Ahmedabad",
+      "exterior wall seepage Ahmedabad",
+      "rainwater leakage solution Ahmedabad",
+      "wall crack waterproofing Ahmedabad",
+      "exterior wall leakage solution",
+      "exterior wall dampness treatment",
+      "rainwater seepage treatment",
+      "wall waterproofing contractor Ahmedabad",
+      "wall waterproofing company Ahmedabad",
+      "commercial wall waterproofing Ahmedabad",
+      "industrial wall waterproofing Ahmedabad",
+      "Chandan Enterprise",
+    ],
 
     overview:
       "Exterior wall waterproofing helps protect building walls that are exposed to rain, moisture and changing weather conditions. Water can enter through cracks, joints, porous surfaces and other vulnerable areas, potentially affecting interior walls and surrounding spaces. Our approach focuses on understanding the wall condition, preparing the affected surface and selecting a suitable waterproofing treatment based on the property and site requirements.",
@@ -835,10 +922,28 @@ export const services: Service[] = [
 
     heroImage: "/Services/rising_waterproofing.jpg",
 
-    seoTitle: "Rising Dampness Treatment in Ahmedabad | Chandan Enterprise",
+    seoTitle: "Rising Dampness Treatment in Ahmedabad",
 
     seoDescription:
-      "Professional rising dampness treatment in Ahmedabad for moisture-affected walls, damp patches, peeling paint and water-related surface problems.",
+      "Rising dampness treatment in Ahmedabad for damp walls, moisture patches, peeling paint, discoloration and moisture-related surface problems in properties.",
+
+    seoKeywords: [
+      "rising dampness treatment Ahmedabad",
+      "rising damp treatment Ahmedabad",
+      "rising dampness solution Ahmedabad",
+      "damp wall treatment Ahmedabad",
+      "wall dampness treatment Ahmedabad",
+      "damp wall repair Ahmedabad",
+      "moisture affected walls Ahmedabad",
+      "wall moisture treatment Ahmedabad",
+      "dampness treatment services Ahmedabad",
+      "rising damp wall treatment",
+      "damp wall solution Ahmedabad",
+      "wall seepage treatment Ahmedabad",
+      "moisture problem treatment Ahmedabad",
+      "dampness repair Ahmedabad",
+      "Chandan Enterprise",
+    ],
 
     overview:
       "Rising dampness is a moisture-related condition that can affect lower sections of walls and surrounding surfaces. Persistent moisture may contribute to damp patches, peeling paint, surface deterioration and other visible signs of moisture. Our approach begins by understanding the affected area and assessing the visible condition before selecting a suitable treatment for the property and moisture-related requirement.",
@@ -1005,10 +1110,28 @@ export const services: Service[] = [
     heroImage: "/Services/puinjection.jpg",
 
     seoTitle:
-      "PU Injection Grouting Services in Ahmedabad | Chandan Enterprise",
+  "PU Injection Grouting in Ahmedabad",
 
-    seoDescription:
-      "Professional PU injection grouting services in Ahmedabad for suitable water leakage, seepage, cracks, joints and water-entry conditions in concrete structures.",
+seoDescription:
+  "PU injection grouting in Ahmedabad for concrete leakage, crack seepage, joint leakage and water ingress in basements and suitable structures.",
+
+seoKeywords: [
+  "PU injection grouting Ahmedabad",
+  "PU injection grouting services Ahmedabad",
+  "PU injection waterproofing Ahmedabad",
+  "PU grouting services Ahmedabad",
+  "polyurethane injection grouting Ahmedabad",
+  "PU injection leakage repair Ahmedabad",
+  "concrete leakage repair Ahmedabad",
+  "concrete crack injection Ahmedabad",
+  "crack injection grouting Ahmedabad",
+  "joint leakage treatment Ahmedabad",
+  "water ingress treatment Ahmedabad",
+  "basement PU injection grouting",
+  "basement leakage repair Ahmedabad",
+  "water leakage injection treatment",
+  "Chandan Enterprise",
+],
 
     overview:
       "PU injection grouting is a targeted treatment method used for suitable water leakage and water-entry conditions in concrete and other compatible structures. The material is injected through selected points to reach suitable cracks, joints or pathways where water is entering. Our approach focuses on understanding the leakage condition, identifying suitable injection points, preparing the affected area and carrying out the grouting treatment according to the site requirement.",
@@ -1173,11 +1296,29 @@ export const services: Service[] = [
 
     heroImage: "/Services/expansion_joint_sealing.jpg",
 
-    seoTitle:
-      "Expansion Joint Sealing Services in Ahmedabad | Chandan Enterprise",
+seoTitle:
+  "Expansion Joint Sealing in Ahmedabad",
 
-    seoDescription:
-      "Professional expansion joint sealing services in Ahmedabad for water penetration, leakage and moisture protection across suitable residential, commercial and industrial structures.",
+seoDescription:
+  "Expansion joint sealing in Ahmedabad for water leakage, moisture penetration and damaged joint sealants in commercial, industrial and suitable structures.",
+
+seoKeywords: [
+  "expansion joint sealing Ahmedabad",
+  "expansion joint sealing services Ahmedabad",
+  "expansion joint waterproofing Ahmedabad",
+  "expansion joint leakage repair Ahmedabad",
+  "expansion joint leakage solution",
+  "expansion joint waterproofing services",
+  "joint sealing contractor Ahmedabad",
+  "construction joint sealing Ahmedabad",
+  "expansion joint sealant replacement Ahmedabad",
+  "damaged joint sealant repair Ahmedabad",
+  "water leakage through expansion joints",
+  "expansion joint water leakage treatment",
+  "industrial expansion joint sealing Ahmedabad",
+  "commercial expansion joint sealing Ahmedabad",
+  "Chandan Enterprise",
+],
 
     overview:
       "Expansion joints are designed to accommodate movement between sections of a structure, but they can also become potential pathways for water and moisture when the joint sealing system deteriorates or becomes damaged. Expansion joint sealing helps protect suitable joint areas by addressing gaps, damaged sealant and other water-entry conditions. Our approach focuses on understanding the joint condition, preparing the area and selecting a suitable sealing treatment according to the structure and site requirements.",
@@ -1341,12 +1482,29 @@ export const services: Service[] = [
       "Protect swimming pool structures from water leakage, seepage and moisture-related issues with a suitable waterproofing approach based on the pool structure and site condition.",
 
     heroImage: "/Services/swimming_pool_waterproofing.jpg",
+seoTitle:
+  "Swimming Pool Waterproofing in Ahmedabad",
 
-    seoTitle:
-      "Swimming Pool Waterproofing Services in Ahmedabad | Chandan Enterprise",
+seoDescription:
+  "Swimming pool waterproofing in Ahmedabad for pool leakage, water seepage, cracks, joints and moisture issues in residential, commercial and recreational properties.",
 
-    seoDescription:
-      "Professional swimming pool waterproofing services in Ahmedabad for pool leakage, water seepage, cracks, joints and moisture-related problems.",
+seoKeywords: [
+  "swimming pool waterproofing Ahmedabad",
+  "swimming pool waterproofing services Ahmedabad",
+  "pool waterproofing Ahmedabad",
+  "swimming pool leakage repair Ahmedabad",
+  "swimming pool leakage solution Ahmedabad",
+  "pool leakage repair Ahmedabad",
+  "pool seepage treatment Ahmedabad",
+  "swimming pool crack repair Ahmedabad",
+  "pool crack waterproofing Ahmedabad",
+  "pool joint waterproofing Ahmedabad",
+  "water retaining structure waterproofing Ahmedabad",
+  "residential pool waterproofing Ahmedabad",
+  "commercial pool waterproofing Ahmedabad",
+  "hotel pool waterproofing Ahmedabad",
+  "Chandan Enterprise",
+],
 
     overview:
       "Swimming pool waterproofing helps protect pool structures from water penetration and leakage through floors, walls, joints and other vulnerable areas. Continuous contact with water can expose the structure to moisture-related conditions and potential leakage points. Our approach focuses on understanding the pool structure, assessing the affected areas, preparing the surface and selecting a suitable waterproofing treatment according to the site requirement.",

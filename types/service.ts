@@ -40,6 +40,8 @@ export interface Service {
   // SEO
   seoTitle: string;
   seoDescription: string;
+  seoKeywords?: string[];
+  canonical?: string;
 
   // Overview
   overview: string;

@@ -1,35 +1,54 @@
 "use client";
 
-import { Phone, MessageCircle } from "lucide-react";
+import React from "react";
+import {
+  MessageCircle,
+  PhoneCall,
+  Send,
+} from "lucide-react";
 
 export default function StickyMobileCTA() {
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-black border-t border-white/10 z-50 md:hidden">
-
-      <div className="grid grid-cols-2">
-
-        {/* Call Button */}
+    <div className="fixed inset-x-0 bottom-0 z-[100] border-t border-[#dce8f0] bg-white/95 p-2 shadow-[0_-10px_35px_rgba(9,42,67,0.12)] backdrop-blur-xl lg:hidden">
+      <div className="mx-auto grid max-w-lg grid-cols-3 gap-2">
+        {/* Call */}
         <a
-          href="tel:+919558189429"
-          className="h-16 flex items-center justify-center gap-3 text-white border-r border-white/10"
+          href="tel:+919XXXXXXXXX"
+          className="flex min-h-[48px] flex-col items-center justify-center gap-0.5 rounded-xl text-[#092a43] transition-colors hover:bg-[#f8fbfd]"
         >
-          <Phone size={20} />
-          Call Now
+          <PhoneCall size={18} className="text-[#015696]" />
+
+          <span className="text-[10px] font-bold">
+            Call
+          </span>
         </a>
 
-        {/* WhatsApp Button */}
+        {/* WhatsApp */}
         <a
-          href="https://wa.me/919558189429"
+          href="https://wa.me/919XXXXXXXXX"
           target="_blank"
-          rel="noopener noreferrer"
-          className="h-16 flex items-center justify-center gap-3 bg-white text-black font-semibold"
+          rel="noreferrer"
+          className="flex min-h-[48px] flex-col items-center justify-center gap-0.5 rounded-xl text-[#092a43] transition-colors hover:bg-[#f8fbfd]"
         >
-          <MessageCircle size={20} />
-          WhatsApp
+          <MessageCircle size={18} className="text-[#015696]" />
+
+          <span className="text-[10px] font-bold">
+            WhatsApp
+          </span>
         </a>
 
-      </div>
+        {/* Enquiry */}
+        <a
+          href="#enquiry"
+          className="flex min-h-[48px] flex-col items-center justify-center gap-0.5 rounded-xl bg-[#015696] text-white shadow-sm transition-colors hover:bg-[#0b3f67]"
+        >
+          <Send size={18} />
 
+          <span className="text-[10px] font-bold">
+            Get Quote
+          </span>
+        </a>
+      </div>
     </div>
   );
 }
