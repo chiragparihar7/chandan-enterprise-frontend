@@ -1109,29 +1109,28 @@ export const services: Service[] = [
 
     heroImage: "/Services/puinjection.jpg",
 
-    seoTitle:
-  "PU Injection Grouting in Ahmedabad",
+    seoTitle: "PU Injection Grouting in Ahmedabad",
 
-seoDescription:
-  "PU injection grouting in Ahmedabad for concrete leakage, crack seepage, joint leakage and water ingress in basements and suitable structures.",
+    seoDescription:
+      "PU injection grouting in Ahmedabad for concrete leakage, crack seepage, joint leakage and water ingress in basements and suitable structures.",
 
-seoKeywords: [
-  "PU injection grouting Ahmedabad",
-  "PU injection grouting services Ahmedabad",
-  "PU injection waterproofing Ahmedabad",
-  "PU grouting services Ahmedabad",
-  "polyurethane injection grouting Ahmedabad",
-  "PU injection leakage repair Ahmedabad",
-  "concrete leakage repair Ahmedabad",
-  "concrete crack injection Ahmedabad",
-  "crack injection grouting Ahmedabad",
-  "joint leakage treatment Ahmedabad",
-  "water ingress treatment Ahmedabad",
-  "basement PU injection grouting",
-  "basement leakage repair Ahmedabad",
-  "water leakage injection treatment",
-  "Chandan Enterprise",
-],
+    seoKeywords: [
+      "PU injection grouting Ahmedabad",
+      "PU injection grouting services Ahmedabad",
+      "PU injection waterproofing Ahmedabad",
+      "PU grouting services Ahmedabad",
+      "polyurethane injection grouting Ahmedabad",
+      "PU injection leakage repair Ahmedabad",
+      "concrete leakage repair Ahmedabad",
+      "concrete crack injection Ahmedabad",
+      "crack injection grouting Ahmedabad",
+      "joint leakage treatment Ahmedabad",
+      "water ingress treatment Ahmedabad",
+      "basement PU injection grouting",
+      "basement leakage repair Ahmedabad",
+      "water leakage injection treatment",
+      "Chandan Enterprise",
+    ],
 
     overview:
       "PU injection grouting is a targeted treatment method used for suitable water leakage and water-entry conditions in concrete and other compatible structures. The material is injected through selected points to reach suitable cracks, joints or pathways where water is entering. Our approach focuses on understanding the leakage condition, identifying suitable injection points, preparing the affected area and carrying out the grouting treatment according to the site requirement.",
@@ -1296,29 +1295,28 @@ seoKeywords: [
 
     heroImage: "/Services/expansion_joint_sealing.jpg",
 
-seoTitle:
-  "Expansion Joint Sealing in Ahmedabad",
+    seoTitle: "Expansion Joint Sealing in Ahmedabad",
 
-seoDescription:
-  "Expansion joint sealing in Ahmedabad for water leakage, moisture penetration and damaged joint sealants in commercial, industrial and suitable structures.",
+    seoDescription:
+      "Expansion joint sealing in Ahmedabad for water leakage, moisture penetration and damaged joint sealants in commercial, industrial and suitable structures.",
 
-seoKeywords: [
-  "expansion joint sealing Ahmedabad",
-  "expansion joint sealing services Ahmedabad",
-  "expansion joint waterproofing Ahmedabad",
-  "expansion joint leakage repair Ahmedabad",
-  "expansion joint leakage solution",
-  "expansion joint waterproofing services",
-  "joint sealing contractor Ahmedabad",
-  "construction joint sealing Ahmedabad",
-  "expansion joint sealant replacement Ahmedabad",
-  "damaged joint sealant repair Ahmedabad",
-  "water leakage through expansion joints",
-  "expansion joint water leakage treatment",
-  "industrial expansion joint sealing Ahmedabad",
-  "commercial expansion joint sealing Ahmedabad",
-  "Chandan Enterprise",
-],
+    seoKeywords: [
+      "expansion joint sealing Ahmedabad",
+      "expansion joint sealing services Ahmedabad",
+      "expansion joint waterproofing Ahmedabad",
+      "expansion joint leakage repair Ahmedabad",
+      "expansion joint leakage solution",
+      "expansion joint waterproofing services",
+      "joint sealing contractor Ahmedabad",
+      "construction joint sealing Ahmedabad",
+      "expansion joint sealant replacement Ahmedabad",
+      "damaged joint sealant repair Ahmedabad",
+      "water leakage through expansion joints",
+      "expansion joint water leakage treatment",
+      "industrial expansion joint sealing Ahmedabad",
+      "commercial expansion joint sealing Ahmedabad",
+      "Chandan Enterprise",
+    ],
 
     overview:
       "Expansion joints are designed to accommodate movement between sections of a structure, but they can also become potential pathways for water and moisture when the joint sealing system deteriorates or becomes damaged. Expansion joint sealing helps protect suitable joint areas by addressing gaps, damaged sealant and other water-entry conditions. Our approach focuses on understanding the joint condition, preparing the area and selecting a suitable sealing treatment according to the structure and site requirements.",
@@ -1482,29 +1480,28 @@ seoKeywords: [
       "Protect swimming pool structures from water leakage, seepage and moisture-related issues with a suitable waterproofing approach based on the pool structure and site condition.",
 
     heroImage: "/Services/swimming_pool_waterproofing.jpg",
-seoTitle:
-  "Swimming Pool Waterproofing in Ahmedabad",
+    seoTitle: "Swimming Pool Waterproofing in Ahmedabad",
 
-seoDescription:
-  "Swimming pool waterproofing in Ahmedabad for pool leakage, water seepage, cracks, joints and moisture issues in residential, commercial and recreational properties.",
+    seoDescription:
+      "Swimming pool waterproofing in Ahmedabad for pool leakage, water seepage, cracks, joints and moisture issues in residential, commercial and recreational properties.",
 
-seoKeywords: [
-  "swimming pool waterproofing Ahmedabad",
-  "swimming pool waterproofing services Ahmedabad",
-  "pool waterproofing Ahmedabad",
-  "swimming pool leakage repair Ahmedabad",
-  "swimming pool leakage solution Ahmedabad",
-  "pool leakage repair Ahmedabad",
-  "pool seepage treatment Ahmedabad",
-  "swimming pool crack repair Ahmedabad",
-  "pool crack waterproofing Ahmedabad",
-  "pool joint waterproofing Ahmedabad",
-  "water retaining structure waterproofing Ahmedabad",
-  "residential pool waterproofing Ahmedabad",
-  "commercial pool waterproofing Ahmedabad",
-  "hotel pool waterproofing Ahmedabad",
-  "Chandan Enterprise",
-],
+    seoKeywords: [
+      "swimming pool waterproofing Ahmedabad",
+      "swimming pool waterproofing services Ahmedabad",
+      "pool waterproofing Ahmedabad",
+      "swimming pool leakage repair Ahmedabad",
+      "swimming pool leakage solution Ahmedabad",
+      "pool leakage repair Ahmedabad",
+      "pool seepage treatment Ahmedabad",
+      "swimming pool crack repair Ahmedabad",
+      "pool crack waterproofing Ahmedabad",
+      "pool joint waterproofing Ahmedabad",
+      "water retaining structure waterproofing Ahmedabad",
+      "residential pool waterproofing Ahmedabad",
+      "commercial pool waterproofing Ahmedabad",
+      "hotel pool waterproofing Ahmedabad",
+      "Chandan Enterprise",
+    ],
 
     overview:
       "Swimming pool waterproofing helps protect pool structures from water penetration and leakage through floors, walls, joints and other vulnerable areas. Continuous contact with water can expose the structure to moisture-related conditions and potential leakage points. Our approach focuses on understanding the pool structure, assessing the affected areas, preparing the surface and selecting a suitable waterproofing treatment according to the site requirement.",
@@ -1650,6 +1647,653 @@ seoKeywords: [
         question: "Can existing swimming pool leakage be treated?",
         answer:
           "Existing leakage can be assessed to identify visible water-entry points and affected surfaces. The appropriate treatment depends on the condition found during inspection.",
+      },
+    ],
+  },
+
+  {
+    id: "10",
+    slug: "structural-repair-strengthening",
+    title: "Structural Repair & Strengthening",
+    subtitle:
+      "Professional Structural Repair and Strengthening Solutions for Building Durability",
+    shortDescription:
+      "Address concrete deterioration, cracks, exposed reinforcement, and damaged building elements with suitable structural repair solutions.",
+    heroImage: "/Services/Repair_and_Strengthening.png",
+
+    // SEO
+    seoTitle: "Structural Repair & Strengthening in Ahmedabad",
+    seoDescription:
+      "Structural repair and strengthening services in Ahmedabad for concrete deterioration, exposed reinforcement, cracks, and damaged building elements. Request a site inspection and quotation.",
+    seoKeywords: [
+      "structural repair Ahmedabad",
+      "structural strengthening services Ahmedabad",
+      "concrete repair Ahmedabad",
+      "building structural repair",
+      "concrete crack repair Ahmedabad",
+      "reinforcement corrosion repair",
+      "structural maintenance services",
+      "concrete restoration contractor Ahmedabad",
+    ],
+    canonical:
+      "https://www.chandanenterprises.com/services/structural-repair-strengthening",
+
+    overview:
+      "Structural repair and strengthening help address deterioration in concrete and other building elements. Cracks, concrete spalling, exposed reinforcement, and corrosion-related damage may develop due to moisture, environmental exposure, ageing, or other causes. Chandan Enterprise provides repair solutions selected according to site conditions and the observed damage. The work may include surface preparation, removal of unsound concrete, reinforcement protection, application of suitable repair materials, and specified strengthening measures. Where structural capacity or safety may be affected, assessment and repair specifications from a qualified structural engineer are essential.",
+
+    benefits: [
+      {
+        title: "Concrete Damage Repair",
+        description:
+          "Address suitable areas of deteriorated, cracked, or damaged concrete using appropriate repair materials.",
+      },
+      {
+        title: "Reinforcement Protection",
+        description:
+          "Help protect exposed reinforcement through suitable preparation and compatible protection systems.",
+      },
+      {
+        title: "Improved Durability",
+        description:
+          "Repair affected areas to help reduce further deterioration when the underlying causes are properly addressed.",
+      },
+      {
+        title: "Targeted Repair Solutions",
+        description:
+          "Select repair methods according to the condition of the structure and the requirements of the project.",
+      },
+    ],
+
+    problems: [
+      {
+        title: "Concrete Spalling",
+        description:
+          "Repair areas where concrete has become loose, detached, or deteriorated after assessing the cause.",
+      },
+      {
+        title: "Cracks in Concrete",
+        description:
+          "Evaluate visible cracks and determine suitable repair methods based on their characteristics and cause.",
+      },
+      {
+        title: "Exposed Reinforcement",
+        description:
+          "Address concrete damage around exposed steel reinforcement using an appropriate repair system.",
+      },
+      {
+        title: "Corrosion-Related Damage",
+        description:
+          "Assess rust staining and associated concrete deterioration to identify suitable remedial measures.",
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Site Inspection",
+        description:
+          "Inspect affected concrete and building elements for cracks, spalling, exposed reinforcement, and visible deterioration.",
+        icon: "Eye",
+      },
+      {
+        step: 2,
+        title: "Damage Assessment",
+        description:
+          "Determine the repair requirements and identify when specialist testing or structural engineering assessment is needed.",
+        icon: "Search",
+      },
+      {
+        step: 3,
+        title: "Surface Preparation",
+        description:
+          "Remove loose or unsound material and prepare the affected area according to the selected repair system.",
+        icon: "Hammer",
+      },
+      {
+        step: 4,
+        title: "Repair Application",
+        description:
+          "Apply suitable repair mortars, reinforcement protection products, and other specified materials.",
+        icon: "Wrench",
+      },
+      {
+        step: 5,
+        title: "Finishing and Inspection",
+        description:
+          "Complete the repair, follow the required curing procedure, and inspect the finished work against the agreed scope.",
+        icon: "ShieldCheck",
+      },
+    ],
+
+    applications: [
+      {
+        category: "Residential Buildings",
+        description: "Houses, apartments, balconies, and common areas",
+        icon: "Home",
+      },
+      {
+        category: "Commercial Properties",
+        description: "Offices, showrooms, and commercial buildings",
+        icon: "Building2",
+      },
+      {
+        category: "Concrete Structures",
+        description: "Suitable beams, columns, slabs, and concrete surfaces",
+        icon: "Construction",
+      },
+      {
+        category: "Industrial Facilities",
+        description: "Selected industrial buildings and concrete structures",
+        icon: "Factory",
+      },
+    ],
+
+    faqs: [
+      {
+        question:
+          "What are the common signs that structural repair may be needed?",
+        answer:
+          "Visible concrete spalling, exposed reinforcement, corrosion staining, and recurring cracks may require investigation. These signs alone do not determine structural safety.",
+      },
+      {
+        question: "Can all concrete cracks be repaired using the same method?",
+        answer:
+          "No. The appropriate method depends on the crack's cause, width, movement, location, and whether a structural element is affected.",
+      },
+      {
+        question:
+          "What is the difference between structural repair and strengthening?",
+        answer:
+          "Repair addresses damaged material or deterioration. Strengthening involves specifically designed measures to improve or restore structural capacity where required.",
+      },
+      {
+        question: "Is an engineer's assessment always necessary?",
+        answer:
+          "Not every surface repair requires structural engineering, but cracks or damage that may affect structural capacity or safety should be assessed by a qualified structural engineer.",
+      },
+    ],
+  },
+
+  {
+    id: "11",
+    slug: "building-repair-maintenance",
+    title: "Building Repair & Maintenance",
+    subtitle:
+      "Complete Building Repair and Maintenance Solutions for Residential and Commercial Properties",
+    shortDescription:
+      "Maintain your property with suitable solutions for damaged plaster, deteriorated surfaces, cracks, dampness, and general building repairs.",
+    heroImage: "/Services/Apartment_Facade_Renovation.png",
+
+    // SEO
+    seoTitle: "Building Repair & Maintenance Services in Ahmedabad",
+    seoDescription:
+      "Building repair and maintenance services in Ahmedabad for damaged plaster, wall cracks, deteriorated finishes, and moisture-related issues. Contact Chandan Enterprise for a site inspection.",
+    seoKeywords: [
+      "building repair Ahmedabad",
+      "building maintenance services Ahmedabad",
+      "residential building repair",
+      "commercial building maintenance",
+      "building refurbishment Ahmedabad",
+      "wall crack repair services",
+      "plaster repair contractor",
+      "property maintenance services Ahmedabad",
+    ],
+    canonical:
+      "https://www.chandanenterprises.com/services/building-repair-maintenance",
+
+    overview:
+      "Regular building repair and maintenance help keep residential and commercial properties in serviceable condition. Weather exposure, moisture, ageing materials, and everyday use can cause damaged plaster, peeling finishes, localized cracks, and surface deterioration. Chandan Enterprise provides building repair solutions based on the condition of the property and the work required. Services may include surface preparation, plaster repairs, suitable crack treatment, restoration of damaged finishes, and coordination with waterproofing work where moisture ingress is identified. Identifying the underlying cause before carrying out repairs helps reduce the risk of recurring problems.",
+
+    benefits: [
+      {
+        title: "Improved Property Condition",
+        description:
+          "Address visible deterioration and restore affected building surfaces with suitable repair methods.",
+      },
+      {
+        title: "Preventive Maintenance",
+        description:
+          "Identify repair requirements early and plan maintenance before minor defects become more extensive.",
+      },
+      {
+        title: "Better Surface Finishes",
+        description:
+          "Restore suitable wall and ceiling surfaces in preparation for finishing work.",
+      },
+      {
+        title: "Cause-Based Repairs",
+        description:
+          "Consider moisture ingress, material deterioration, and other underlying issues when planning remedial work.",
+      },
+    ],
+
+    problems: [
+      {
+        title: "Damaged Plaster",
+        description:
+          "Repair loose, cracked, or deteriorated plaster after assessing the surface condition.",
+      },
+      {
+        title: "Peeling Paint and Finishes",
+        description:
+          "Identify possible adhesion, moisture, or surface preparation issues before restoring affected finishes.",
+      },
+      {
+        title: "Wall Cracks",
+        description:
+          "Inspect visible cracks and select appropriate treatment based on their cause and characteristics.",
+      },
+      {
+        title: "Dampness and Surface Deterioration",
+        description:
+          "Investigate moisture-affected surfaces and identify suitable repair or waterproofing measures where necessary.",
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Property Inspection",
+        description:
+          "Inspect the affected walls, ceilings, finishes, and other areas requiring maintenance.",
+        icon: "Eye",
+      },
+      {
+        step: 2,
+        title: "Identify Repair Requirements",
+        description:
+          "Review the visible defects and determine whether further investigation is needed to identify the underlying cause.",
+        icon: "Search",
+      },
+      {
+        step: 3,
+        title: "Surface Preparation",
+        description:
+          "Remove loose material, clean affected surfaces, and prepare the area for the selected repair work.",
+        icon: "Hammer",
+      },
+      {
+        step: 4,
+        title: "Repair and Restoration",
+        description:
+          "Complete the agreed plaster repairs, crack treatment, surface restoration, or associated remedial work.",
+        icon: "Wrench",
+      },
+      {
+        step: 5,
+        title: "Finishing and Review",
+        description:
+          "Complete the specified finishing work and inspect the repaired areas before handover.",
+        icon: "CheckCircle2",
+      },
+    ],
+
+    applications: [
+      {
+        category: "Residential Buildings",
+        description: "Houses, villas, and apartments",
+        icon: "Home",
+      },
+      {
+        category: "Commercial Buildings",
+        description: "Offices, shops, and showrooms",
+        icon: "Building2",
+      },
+      {
+        category: "Common Areas",
+        description: "Corridors, stairwells, and shared spaces",
+        icon: "Building",
+      },
+      {
+        category: "Existing Properties",
+        description: "Buildings requiring repair, refurbishment, or upkeep",
+        icon: "Construction",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "What is included in building repair and maintenance?",
+        answer:
+          "Depending on the agreed scope, work may include plaster repairs, surface restoration, localized crack treatment, damaged finish repairs, and moisture-related remedial work.",
+      },
+      {
+        question: "Can damp walls be fixed simply by repainting?",
+        answer:
+          "Repainting alone may not solve dampness. The moisture source should be investigated and addressed before suitable finishing materials are applied.",
+      },
+      {
+        question:
+          "Can building repair work be carried out in occupied properties?",
+        answer:
+          "Many localized repairs can be planned around building use, depending on access, dust, noise, safety requirements, and the scope of work.",
+      },
+      {
+        question: "When should a building be inspected for maintenance?",
+        answer:
+          "Inspection frequency depends on the building's age, condition, exposure, and use. New cracks, leakage, dampness, or deteriorating finishes should be investigated when noticed.",
+      },
+    ],
+  },
+
+  {
+    id: "12",
+    slug: "industrial-painting-protective-coatings",
+    title: "Industrial Painting & Protective Coatings",
+    subtitle:
+      "Industrial Surface Protection and Coating Solutions for Long-Term Durability",
+    shortDescription:
+      "Protect suitable industrial and commercial surfaces with appropriate painting systems, surface preparation, and protective coatings.",
+    heroImage: "/Services/Industrial_Steel_Coating.png",
+
+    // SEO
+    seoTitle: "Industrial Painting & Protective Coatings in Ahmedabad",
+    seoDescription:
+      "Industrial painting and protective coating services in Ahmedabad for suitable metal, concrete, and building surfaces. Discuss surface preparation and coating requirements with Chandan Enterprise.",
+    seoKeywords: [
+      "industrial painting Ahmedabad",
+      "industrial protective coatings Ahmedabad",
+      "industrial painting services",
+      "protective coating contractor Ahmedabad",
+      "industrial surface coating",
+      "metal surface painting",
+      "industrial corrosion protection",
+      "commercial protective painting",
+    ],
+    canonical:
+      "https://www.chandanenterprises.com/services/industrial-painting-protective-coatings",
+
+    overview:
+      "Industrial painting and protective coatings help protect suitable surfaces against environmental exposure, corrosion, moisture, and wear. The correct system depends on the substrate, existing surface condition, operating environment, and required finish. Chandan Enterprise provides industrial painting and coating solutions selected according to project requirements. Work may include cleaning, removal of loose or deteriorated coatings, suitable surface preparation, primer application, and finishing coats. Correct product selection, application conditions, and curing procedures are important for coating adhesion and expected performance.",
+
+    benefits: [
+      {
+        title: "Surface Protection",
+        description:
+          "Help protect compatible surfaces against environmental exposure and everyday deterioration.",
+      },
+      {
+        title: "Corrosion Management",
+        description:
+          "Apply suitable coating systems to help manage corrosion risk on compatible metal surfaces.",
+      },
+      {
+        title: "Improved Appearance",
+        description:
+          "Restore or improve the finish of suitable industrial and commercial surfaces.",
+      },
+      {
+        title: "Maintenance Support",
+        description:
+          "Support planned recoating and surface maintenance based on the existing coating condition.",
+      },
+    ],
+
+    problems: [
+      {
+        title: "Corrosion on Metal Surfaces",
+        description:
+          "Assess rust and surface deterioration before selecting appropriate preparation and coating measures.",
+      },
+      {
+        title: "Peeling or Flaking Paint",
+        description:
+          "Remove or treat deteriorated coatings as required before applying a compatible replacement system.",
+      },
+      {
+        title: "Environmental Exposure",
+        description:
+          "Select suitable coatings according to weather exposure, moisture, and other operating conditions.",
+      },
+      {
+        title: "Surface Wear",
+        description:
+          "Consider appropriate coating systems for compatible surfaces exposed to abrasion or routine industrial use.",
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Site and Surface Inspection",
+        description:
+          "Assess the substrate, existing coating, visible corrosion, contamination, and operating environment.",
+        icon: "Eye",
+      },
+      {
+        step: 2,
+        title: "Coating Selection",
+        description:
+          "Identify compatible primers and finishing coats according to the substrate and project specifications.",
+        icon: "ClipboardCheck",
+      },
+      {
+        step: 3,
+        title: "Surface Preparation",
+        description:
+          "Clean the surface and remove loose paint, rust, or contaminants using the specified preparation method.",
+        icon: "Hammer",
+      },
+      {
+        step: 4,
+        title: "Primer and Coating Application",
+        description:
+          "Apply the specified primer and protective coating system in accordance with product instructions.",
+        icon: "Paintbrush",
+      },
+      {
+        step: 5,
+        title: "Final Inspection",
+        description:
+          "Review the finish and check specified application, curing, and coating requirements where applicable.",
+        icon: "ShieldCheck",
+      },
+    ],
+
+    applications: [
+      {
+        category: "Industrial Facilities",
+        description: "Factories, workshops, and production buildings",
+        icon: "Factory",
+      },
+      {
+        category: "Warehouses",
+        description: "Suitable building and facility surfaces",
+        icon: "Warehouse",
+      },
+      {
+        category: "Metal Surfaces",
+        description: "Compatible metal components and structures",
+        icon: "Construction",
+      },
+      {
+        category: "Commercial Properties",
+        description: "Selected commercial and service facilities",
+        icon: "Building2",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "What are industrial protective coatings used for?",
+        answer:
+          "They help protect suitable surfaces against corrosion, moisture, weather exposure, and wear when the coating system is compatible with the substrate and operating conditions.",
+      },
+      {
+        question: "Can new paint be applied over an existing coating?",
+        answer:
+          "It depends on the existing coating's adhesion, condition, contamination, and compatibility. The surface should be inspected and prepared appropriately before recoating.",
+      },
+      {
+        question: "Why is surface preparation important before painting?",
+        answer:
+          "Suitable preparation helps remove contaminants and loose material, supporting better adhesion and reducing the risk of premature coating failure.",
+      },
+      {
+        question: "How do you choose the right protective coating?",
+        answer:
+          "Selection depends on the substrate, environmental exposure, operating conditions, preparation requirements, desired finish, and product specifications.",
+      },
+    ],
+  },
+
+  {
+    id: "13",
+    slug: "false-ceiling-partition-systems",
+    title: "False Ceiling & Partition Systems",
+    subtitle:
+      "Modern False Ceiling and Partition Solutions for Functional Interior Spaces",
+    shortDescription:
+      "Create organized and professional interiors with suitable gypsum board ceilings, grid ceiling systems, and internal partitions.",
+    heroImage: "/Services/false_ceilling.png",
+
+    // SEO
+    seoTitle: "False Ceiling & Partition Systems in Ahmedabad",
+    seoDescription:
+      "False ceiling and partition installation services in Ahmedabad for homes, offices, and commercial interiors. Explore gypsum board ceilings, grid ceiling systems, and interior partitions.",
+    seoKeywords: [
+      "false ceiling Ahmedabad",
+      "false ceiling installation Ahmedabad",
+      "gypsum false ceiling Ahmedabad",
+      "grid ceiling installation",
+      "office partition systems Ahmedabad",
+      "commercial false ceiling services",
+      "interior partition installation",
+      "false ceiling contractor Ahmedabad",
+    ],
+    canonical:
+      "https://www.chandanenterprises.com/services/false-ceiling-partition-systems",
+
+    overview:
+      "False ceiling and partition systems help organize interior layouts and create clean, functional spaces in residential and commercial properties. Depending on the project, installations may include gypsum board ceilings, modular grid ceiling systems, and internal partitions. Chandan Enterprise provides installation solutions selected according to room dimensions, design requirements, existing building conditions, and service coordination needs. Proper framework installation, suitable material selection, and coordination with lighting and electrical services help support a neat finish and practical access for future maintenance.",
+
+    benefits: [
+      {
+        title: "Clean Interior Finish",
+        description:
+          "Create a neat, finished ceiling or partition appearance suited to the intended interior design.",
+      },
+      {
+        title: "Organized Space Planning",
+        description:
+          "Divide suitable interior areas into functional zones for offices, rooms, and commercial spaces.",
+      },
+      {
+        title: "Lighting Coordination",
+        description:
+          "Plan compatible ceiling layouts around specified lighting fixtures and other building services.",
+      },
+      {
+        title: "Flexible System Options",
+        description:
+          "Choose suitable gypsum board or grid ceiling systems according to room conditions and maintenance needs.",
+      },
+    ],
+
+    problems: [
+      {
+        title: "Uneven Ceiling Appearance",
+        description:
+          "Use a properly planned ceiling framework and finishing system to create a consistent interior surface.",
+      },
+      {
+        title: "Unorganized Interior Layout",
+        description:
+          "Introduce suitable partitions to define work areas, rooms, or functional zones.",
+      },
+      {
+        title: "Lighting Coordination Issues",
+        description:
+          "Plan ceiling openings and fixture locations before installation to coordinate the finished layout.",
+      },
+      {
+        title: "Access to Overhead Services",
+        description:
+          "Consider suitable modular systems or access provisions where ongoing service maintenance is required.",
+      },
+    ],
+
+    process: [
+      {
+        step: 1,
+        title: "Site Measurement",
+        description:
+          "Measure the area and assess ceiling height, wall conditions, and existing overhead services.",
+        icon: "Ruler",
+      },
+      {
+        step: 2,
+        title: "Layout Planning",
+        description:
+          "Plan the ceiling or partition arrangement, including lighting coordination and access requirements.",
+        icon: "ClipboardCheck",
+      },
+      {
+        step: 3,
+        title: "Framework Installation",
+        description:
+          "Install the specified support framework according to the system requirements and site conditions.",
+        icon: "Hammer",
+      },
+      {
+        step: 4,
+        title: "Board or Grid Installation",
+        description:
+          "Fit the selected gypsum boards or grid components and complete the specified joints and connections.",
+        icon: "Wrench",
+      },
+      {
+        step: 5,
+        title: "Finishing and Inspection",
+        description:
+          "Complete the specified finishing work and inspect alignment, joints, and overall appearance.",
+        icon: "CheckCircle2",
+      },
+    ],
+
+    applications: [
+      {
+        category: "Residential Interiors",
+        description: "Houses, apartments, bedrooms, and living areas",
+        icon: "Home",
+      },
+      {
+        category: "Office Spaces",
+        description: "Workstations, meeting rooms, and office interiors",
+        icon: "Building2",
+      },
+      {
+        category: "Commercial Interiors",
+        description: "Shops, showrooms, and customer-facing spaces",
+        icon: "Store",
+      },
+      {
+        category: "Institutional Spaces",
+        description: "Suitable educational and other institutional interiors",
+        icon: "Building",
+      },
+    ],
+
+    faqs: [
+      {
+        question: "What types of false ceiling systems are available?",
+        answer:
+          "Common options include gypsum board ceilings and modular grid ceiling systems. The suitable choice depends on the room, finish requirements, and access needs.",
+      },
+      {
+        question: "Can false ceilings be installed in offices and shops?",
+        answer:
+          "Yes. Suitable systems can be planned for offices and commercial spaces based on the layout, lighting, overhead services, and interior requirements.",
+      },
+      {
+        question: "Can lighting and wiring be accommodated in a false ceiling?",
+        answer:
+          "Ceiling layouts can accommodate planned lighting and services when appropriately coordinated. Electrical installation should be carried out by qualified professionals.",
+      },
+      {
+        question: "What should be considered before installing partitions?",
+        answer:
+          "Important considerations include room dimensions, intended use, support conditions, building services, access requirements, and any specified acoustic or fire-performance requirements.",
       },
     ],
   },
