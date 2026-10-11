@@ -212,14 +212,14 @@ export default function Footer() {
                 className="
                   inline-flex
                   h-[82px]
-                  w-[132px]
+                  w-[105px]
                   items-center
                 "
               >
                 <Image
                   src="/logo.png"
                   alt="Chandan Enterprises"
-                  width={132}
+                  width={105}
                   height={82}
                   priority
                   className="
@@ -234,7 +234,7 @@ export default function Footer() {
 
               <p
                 className="
-                  mt-5
+                  mt-2
                   max-w-sm
                   text-sm
                   leading-7
