@@ -217,7 +217,7 @@ export default function Footer() {
                 "
               >
                 <Image
-                  src="/chandan_logo.png"
+                  src="/logo.png"
                   alt="Chandan Enterprises"
                   width={132}
                   height={82}
