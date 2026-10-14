@@ -15,7 +15,8 @@ export default function LayoutWrapper({
   const isLandingPage =
     pathname.startsWith("/repair-maintenance") ||
     pathname.startsWith("/false-ceiling-services") ||
-    pathname.startsWith("/waterproofing-services");
+    pathname.startsWith("/waterproofing-services") ||
+    pathname.startsWith("/building-repair-maintenance");
 
   return (
     <>
